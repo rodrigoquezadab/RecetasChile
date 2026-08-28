@@ -67,10 +67,11 @@ Este recetario no es una lista de recetas común y corriente. Fue creado para ce
 
 ---
 
-## 📖 Catálogo de las 26 Recetas Disponibles
+## 📖 Catálogo de las 27 Recetas Disponibles
 
 | Zona Geográfica | Receta Tradicional | Tiempo | Presupuesto Aprox. |
 | :--- | :--- | :---: | :---: |
+| **Zona Centro** | **Lentejas Tradicionales con Arroz y Zapallo** | 65 min | $1.350 / porción |
 | **Zona Centro** | **Pastel de Choclo Criollo** | 100 min | $2.750 / porción |
 | **Zona Centro** | **Pastel de Papas Criollo** | 85 min | $2.300 / porción |
 | **Zona Centro** | **Empanadas de Pino al Horno** | 95 min | $1.500 / porción |

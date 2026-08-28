@@ -448,11 +448,11 @@
           <p class="empty-msg">No encontramos recetas para "<strong>${escapeHtml(query)}</strong>"</p>
           <div class="quick-suggest-pills">
             <span class="suggest-label">Prueba con:</span>
+            <button type="button" class="btn-quick-pill" data-q="Lentejas">Lentejas</button>
             <button type="button" class="btn-quick-pill" data-q="Pastel">Pastel</button>
             <button type="button" class="btn-quick-pill" data-q="Empanadas">Empanadas</button>
             <button type="button" class="btn-quick-pill" data-q="Churros">Churros</button>
             <button type="button" class="btn-quick-pill" data-q="Cazuela">Cazuela</button>
-            <button type="button" class="btn-quick-pill" data-q="Papas">Papas</button>
           </div>
         </div>
       `;

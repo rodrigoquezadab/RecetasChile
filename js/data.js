@@ -3474,6 +3474,157 @@ const RECETAS_CHILE = [
         "tip": "¡El alma líquida y picante de cualquier asado o empanada en Chile!"
       }
     ]
+  },
+  {
+    "id": "lentejas-con-arroz",
+    "name": "Lentejas Tradicionales con Arroz y Zapallo",
+    "tagline": "El reconfortante guiso familiar chileno de los días fríos y comienzos de semana",
+    "category": "sopas",
+    "categoryLabel": "Sopas y Guisos",
+    "zone": "centro",
+    "zoneLabel": "Zona Centro (Valle Central / Familiar)",
+    "difficulty": "facil",
+    "difficultyLabel": "Fácil",
+    "prepTime": 20,
+    "cookTime": 45,
+    "totalTime": 65,
+    "servingsBase": 6,
+    "estimatedCost": {
+      "totalBase": 8100,
+      "perServing": 1350,
+      "tier": "economico",
+      "tierLabel": "Económico",
+      "note": "Legumbres secas muy rendidoras con verduras de huerta y arroz"
+    },
+    "image": "assets/recipes/lentejas-con-arroz.jpg",
+    "history": "Protagonista indiscutido del menú familiar chileno (tradicionalmente servidas los días lunes para iniciar la semana con fuerza y economía), las lentejas forman parte del mestizaje culinario hispano-criollo. Cocidas a fuego lento con zapallo amarillo camote, un sofrito fragante con 'color' chilena, arroz de grano largo y coronadas opcionalmente con rodajas doradas de longaniza o huevo duro, representan la esencia del hogar y la comida de olla que nutre y abriga.",
+    "grandmasSecret": "Para que el guiso quede bien espeso y meloso sin agregar harina, aplasta 4 o 5 trozos de zapallo cocido contra el borde de la olla con una cuchara de madera e incorpora el arroz recién en los últimos 15 a 18 minutos para que quede al dente y no se reviente.",
+    "winePairing": "Vino tinto joven Carménère del Valle del Maule o un vaso de agua fresca con menta.",
+    "tags": [
+      "Lentejas",
+      "Legumbres",
+      "Zapallo",
+      "Arroz",
+      "Invierno",
+      "Económico"
+    ],
+    "ingredients": [
+      {
+        "name": "Lentejas secas chilenas seleccionadas y lavadas",
+        "quantity": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Arroz blanco de grano largo crudo",
+        "quantity": 120,
+        "unit": "g (media taza)"
+      },
+      {
+        "name": "Zapallo amarillo camote pelado en cubos de 2 cm",
+        "quantity": 350,
+        "unit": "g"
+      },
+      {
+        "name": "Cebolla picada en cubitos finos",
+        "quantity": 1,
+        "unit": "unidad mediana"
+      },
+      {
+        "name": "Zanahoria rallada fina",
+        "quantity": 1,
+        "unit": "unidad"
+      },
+      {
+        "name": "Dientes de ajo finamente picados",
+        "quantity": 2,
+        "unit": "dientes"
+      },
+      {
+        "name": "Longaniza artesanal ahumada en rodajas (opcional tradicional)",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Caldo de verduras o agua hirviendo",
+        "quantity": 1.5,
+        "unit": "litros"
+      },
+      {
+        "name": "Ají de color (pimentón dulce), orégano seco y comino molido",
+        "quantity": 1,
+        "unit": "cucharadita de c/u"
+      },
+      {
+        "name": "Hojas de espinaca o acelga limpia picada en tiritas",
+        "quantity": 1,
+        "unit": "taza"
+      },
+      {
+        "name": "Aceite vegetal o manteca",
+        "quantity": 2,
+        "unit": "cucharadas soperas"
+      },
+      {
+        "name": "Sal de mar y pimienta negra molida",
+        "quantity": 1,
+        "unit": "al gusto"
+      },
+      {
+        "name": "Cilantro fresco recién picado para coronar",
+        "quantity": 0.5,
+        "unit": "taza"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Selección y Lavado de las Lentejas",
+        "timeMinutes": 5,
+        "technique": "Mise en place de legumbres",
+        "text": "Revisa las lentejas secas sobre un plato amplio descartando cualquier piedrecilla o impureza. Lávalas bajo el chorro de agua fría en un colador y escúrrelas bien.",
+        "tip": "Las lentejas pequeñas tradicionales chilenas no requieren horas de remojo previo; se cocinan de forma directa y tierna."
+      },
+      {
+        "step": 2,
+        "title": "Elaboración del Sofrito Criollo con 'Color' y Longaniza",
+        "timeMinutes": 10,
+        "technique": "Sofrito en olla profunda (130°C)",
+        "text": "En una olla grande a fuego medio con 2 cucharadas de aceite o manteca, dora las rodajas de longaniza durante 3 minutos. Añade la cebolla picada en cubitos, la zanahoria rallada, los ajos picados, el ají de color, el orégano y el comino. Sofríe durante 6 a 7 minutos hasta que la cebolla esté transparente y fragante.",
+        "tip": "Disolver el ají de color en el aceite caliente libera su tinte ámbar tostado tan característico de los guisos chilenos."
+      },
+      {
+        "step": 3,
+        "title": "Cocción Inicial de Lentejas y Zapallo Camote",
+        "timeMinutes": 25,
+        "technique": "Hervor suave continuo (95°C)",
+        "text": "Agrega las lentejas lavadas y los cubos de zapallo camote a la olla con el sofrito. Vierte los 1.5 litros de caldo o agua hirviendo (debe cubrir los ingredientes por dos dedos de altura). Añade 1 cucharadita de sal. Cocina a fuego medio-bajo semi-tapado durante 25 minutos hasta que las lentejas comiencen a ablandarse.",
+        "tip": "No agregues sal en exceso al inicio para permitir que la piel de la lenteja se hidrate y suavice con facilidad."
+      },
+      {
+        "step": 4,
+        "title": "Machacado Parcial de Zapallo para Melosidad",
+        "timeMinutes": 5,
+        "technique": "Ligazón rústica natural",
+        "text": "Con una cuchara de madera o prensapapas, aplasta 4 o 5 trozos de zapallo cocido contra las paredes de la olla. Revuelve con movimientos circulares para que el puré de zapallo se disuelva en el caldo.",
+        "tip": "Este sencillo truco de abuela espesa el caldo y le aporta un color dorado brillante sin necesidad de harinas ni espesantes artificiales."
+      },
+      {
+        "step": 5,
+        "title": "Lluvia de Arroz y Tiritas de Acelga",
+        "timeMinutes": 18,
+        "technique": "Cocción de grano a fuego suave (90°C)",
+        "text": "Espolvorea la media taza de arroz crudo en forma de lluvia sobre la olla e incorpora las tiritas de acelga o espinaca. Revuelve suavemente. Cocina a fuego lento durante 15 a 18 minutos revolviendo ocasionalmente hasta que el arroz esté en su punto tierno y las lentejas bien cremosas.",
+        "tip": "Vigila los últimos 5 minutos: las lentejas tienden a espesar rápidamente al absorber el caldo junto al arroz."
+      },
+      {
+        "step": 6,
+        "title": "Reposo y Servicio Tradicional en Plato Hondo",
+        "timeMinutes": 2,
+        "technique": "Servicio tradicional",
+        "text": "Apaga el fuego y deja reposar la olla tapada durante 5 minutos para que los almidones se asienten. Sirve bien caliente en platos hondos o pailas de greda, coronando con cilantro fresco recién picado. Acompaña con una ensalada chilena de tomates frescos o cebolla amortiguada.",
+        "tip": "¡Al día siguiente recalentadas a fuego lento son aún más ricas y cremosas!"
+      }
+    ]
   }
 ];
 
