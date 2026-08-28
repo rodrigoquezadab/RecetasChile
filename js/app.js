@@ -160,7 +160,7 @@
 
   // 2. GESTIÓN DE TEMA CLARO / OSCURO
   function loadTheme() {
-    const saved = localStorage.getItem('sabores_chile_theme') || 'light';
+    const saved = localStorage.getItem('sabores_chile_theme') || 'dark';
     setTheme(saved);
   }
 
