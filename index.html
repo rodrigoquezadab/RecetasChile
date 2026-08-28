@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sabores de Chile • Recetas Tradicionales y Patrimonio Culinario</title>
+  <meta name="description" content="Descubre y cocina las recetas más emblemáticas de la gastronomía típica chilena. Filtra por zonas de Chile (Norte, Centro, Sur, Patagonia, Rapa Nui), postres, platos de fondo y dificultad con escalador dinámico de porciones e historia cultural.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Playfair+Display:ital,wght@0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🥘</text></svg>">
+</head>
+<body data-theme="light">
+
+  <!-- Header / Barra de Navegación Superior -->
+  <header class="site-header" id="siteHeader">
+    <div class="header-container">
+      <div class="brand-wrapper">
+        <a href="#top" class="brand-logo" aria-label="Sabores de Chile Inicio">
+          <span class="brand-icon">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" class="greda-pot-icon">
+              <path d="M6 18C6 26.8366 12.268 34 20 34C27.732 34 34 26.8366 34 18V15H6V18Z" fill="currentColor"/>
+              <ellipse cx="20" cy="15" rx="14" ry="4" fill="#E28743"/>
+              <path d="M2 17C2 15 4 13 6 15L6 19C4 21 2 19 2 17Z" fill="currentColor"/>
+              <path d="M38 17C38 15 36 13 34 15L34 19C36 21 38 19 38 17Z" fill="currentColor"/>
+              <path d="M16 8C16 6 18 5 20 5C22 5 24 6 24 8" stroke="#E28743" stroke-width="2" stroke-linecap="round"/>
+              <path d="M12 9C12 7 13 6 15 6" stroke="#E28743" stroke-width="1.5" stroke-linecap="round"/>
+              <path d="M28 9C28 7 27 6 25 6" stroke="#E28743" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </span>
+          <div class="brand-text">
+            <span class="brand-title">Sabores de Chile</span>
+            <span class="brand-subtitle">Cocina Tradicional y Patrimonio</span>
+          </div>
+        </a>
+      </div>
+
+      <!-- Acciones de Cabecera -->
+      <div class="header-actions">
+        <button id="btnOpenFavorites" class="btn-action-icon" aria-label="Ver recetas favoritas" title="Recetas Guardadas">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+          </svg>
+          <span class="badge-counter" id="favoritesCounter">0</span>
+          <span class="action-label">Favoritos</span>
+        </button>
+
+        <button id="btnToggleTheme" class="btn-action-icon" aria-label="Cambiar tema de color" title="Alternar Modo Oscuro/Claro">
+          <svg id="themeIconSun" class="theme-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg id="themeIconMoon" class="theme-icon hidden" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Principal -->
+  <section class="hero-section" id="top">
+    <div class="hero-background-pattern"></div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span>🇨🇱 Recetario Patrimonial de Chile</span>
+      </div>
+      <h1 class="hero-title">El Alma de la Mesa Chilena</h1>
+      <p class="hero-lead">
+        Recorre Chile a través de sus fogones: desde los saberes andinos del desierto de Atacama, los clásicos criollos del Valle Central, los mariscos y curantos de Chiloé, hasta los manjares patagónicos y los secretos ancestrales de Rapa Nui.
+      </p>
+
+      <!-- Barra de Búsqueda Rápida en Hero -->
+      <div class="hero-search-wrapper">
+        <div class="search-input-box">
+          <svg class="search-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+          <input 
+            type="text" 
+            id="searchInput" 
+            placeholder="Buscar por receta (ej: pastel de choclo, cazuela, chumbeque) o ingrediente..." 
+            autocomplete="off"
+            aria-label="Buscar recetas chilenas"
+          >
+          <button id="btnClearSearch" class="btn-clear-search hidden" title="Limpiar búsqueda" aria-label="Limpiar búsqueda">&times;</button>
+        </div>
+
+        <!-- Predictor Interactivo / Dropdown de Autocompletado Instantáneo -->
+        <div id="searchPredictionsDropdown" class="search-predictions-dropdown hidden" role="listbox" aria-label="Sugerencias predictivas de búsqueda">
+          <div class="predictions-header">
+            <span class="predictions-header-title">✨ Coincidencias instantáneas</span>
+            <span class="predictions-shortcut-hint">Usa ↑ ↓ y Enter</span>
+          </div>
+          <ul id="searchPredictionsList" class="predictions-list">
+            <!-- Sugerencias inyectadas dinámicamente -->
+          </ul>
+        </div>
+      </div>
+
+      <!-- Métricas rápidas de patrimonio -->
+      <div class="hero-stats">
+        <div class="stat-pill">
+          <strong id="statRecipeCount">18</strong>
+          <span>Recetas Maestras</span>
+        </div>
+        <div class="stat-separator">•</div>
+        <div class="stat-pill">
+          <strong>5</strong>
+          <span>Macrozonas del País</span>
+        </div>
+        <div class="stat-separator">•</div>
+        <div class="stat-pill">
+          <strong>100%</strong>
+          <span>Sabores Autóctonos</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Selector Visual de Zonas Geográficas de Chile -->
+  <nav class="zones-navigator-section" aria-label="Filtro de zonas de Chile">
+    <div class="section-heading-compact">
+      <span class="heading-overline">Territorio y Tradición</span>
+      <h2 class="heading-title-small">Explora por Zona Geográfica</h2>
+    </div>
+    <div class="zones-pills-carousel" id="zonesCarousel">
+      <!-- Se llenan dinámicamente con JS -->
+    </div>
+  </nav>
+
+  <!-- Panel de Control y Filtros Multidimensionales -->
+  <main class="main-content-container">
+    <section class="filters-toolbar" id="filtersToolbar">
+      <div class="filters-row-primary">
+        <!-- Filtro por Tipo de Platillo (Pills) -->
+        <div class="category-filter-group" id="categoryFilterGroup" role="tablist" aria-label="Categorías de platillo">
+          <!-- Generados dinámicamente: Todos, Fondos, Postres, Sopas, etc. -->
+        </div>
+      </div>
+
+      <div class="filters-row-secondary">
+        <!-- Dropdown Dificultad -->
+        <div class="select-wrapper">
+          <label for="selectDifficulty" class="select-label">Dificultad:</label>
+          <select id="selectDifficulty" class="custom-select" aria-label="Filtrar por dificultad">
+            <option value="all">Cualquier dificultad</option>
+            <option value="facil">Fácil</option>
+            <option value="media">Media</option>
+            <option value="dificil">Avanzada / Difícil</option>
+          </select>
+        </div>
+
+        <!-- Dropdown Tiempo de Preparación -->
+        <div class="select-wrapper">
+          <label for="selectTime" class="select-label">Tiempo:</label>
+          <select id="selectTime" class="custom-select" aria-label="Filtrar por tiempo de cocción">
+            <option value="all">Cualquier tiempo</option>
+            <option value="quick">Rápidas (&le; 45 min)</option>
+            <option value="medium">Medias (45 a 90 min)</option>
+            <option value="slow">Lenta / Tradición (&gt; 90 min)</option>
+          </select>
+        </div>
+
+        <!-- Dropdown Presupuesto / Costo Aproximado -->
+        <div class="select-wrapper">
+          <label for="selectCost" class="select-label">Costo:</label>
+          <select id="selectCost" class="custom-select" aria-label="Filtrar por costo aproximado">
+            <option value="all">Cualquier presupuesto</option>
+            <option value="economico">Económico (&le; $2.000 / porción)</option>
+            <option value="medio">Medio ($2.001 a $4.500 / porción)</option>
+            <option value="gourmet">Gourmet / Ocasión (&gt; $4.500 / porción)</option>
+          </select>
+        </div>
+
+        <!-- Ordenar por -->
+        <div class="select-wrapper">
+          <label for="selectSort" class="select-label">Ordenar:</label>
+          <select id="selectSort" class="custom-select" aria-label="Ordenar recetas">
+            <option value="featured">Destacadas</option>
+            <option value="cost-asc">Menor costo</option>
+            <option value="cost-desc">Mayor costo</option>
+            <option value="time-asc">Menor tiempo</option>
+            <option value="time-desc">Mayor tiempo</option>
+            <option value="name-asc">Nombre A-Z</option>
+          </select>
+        </div>
+
+        <!-- Botón Reset Filtros -->
+        <button id="btnResetFilters" class="btn-reset-filters hidden" title="Restablecer todos los filtros">
+          <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"></path>
+            <path d="M3 3v5h5"></path>
+          </svg>
+          <span>Limpiar filtros</span>
+        </button>
+      </div>
+
+      <!-- Resumen de Filtros Activos y Contador -->
+      <div class="active-filters-bar">
+        <div class="results-count" id="resultsCount">
+          Mostrando <strong>0</strong> recetas típicas
+        </div>
+        <div class="active-tags-list" id="activeTagsList">
+          <!-- Etiquetas dinámicas de filtros activos -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Cuadrícula de Recetas -->
+    <section class="recipes-grid-section" id="recipesGridSection" aria-live="polite">
+      <div class="recipes-grid" id="recipesGrid">
+        <!-- Renderizado dinámico de tarjetas de recetas chilenas -->
+      </div>
+
+      <!-- Estado Vacío (Sin resultados) -->
+      <div class="empty-state hidden" id="emptyState">
+        <div class="empty-icon">🍲</div>
+        <h3 class="empty-title">No encontramos recetas con estos filtros</h3>
+        <p class="empty-description">Prueba buscando con otros ingredientes, seleccionando otra zona geográfica o restableciendo tus filtros.</p>
+        <button id="btnResetEmpty" class="btn-primary">Ver todas las recetas</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- Modal Detallado de Receta (Ficha Completa e Interactiva) -->
+  <div class="modal-backdrop hidden" id="recipeModalBackdrop" role="dialog" aria-modal="true" aria-labelledby="modalRecipeTitle">
+    <div class="recipe-modal-card" id="recipeModalCard">
+      <!-- Botón de Cerrar Modal -->
+      <button class="modal-close-btn" id="btnModalClose" aria-label="Cerrar receta">&times;</button>
+
+      <!-- Banner de Cabecera del Modal -->
+      <div class="modal-hero">
+        <img id="modalRecipeImage" src="" alt="" class="modal-hero-image" loading="lazy">
+        <div class="modal-hero-overlay"></div>
+        <div class="modal-hero-content">
+          <div class="modal-badges-row">
+            <span class="zone-badge" id="modalZoneBadge"></span>
+            <span class="category-badge" id="modalCategoryBadge"></span>
+            <span class="difficulty-badge" id="modalDifficultyBadge"></span>
+          </div>
+          <h2 class="modal-title" id="modalRecipeTitle"></h2>
+          <p class="modal-tagline" id="modalRecipeTagline"></p>
+        </div>
+      </div>
+
+      <!-- Barra de Acciones y Tiempos -->
+      <div class="modal-stats-bar">
+        <div class="stat-item">
+          <span class="stat-label">Prep:</span>
+          <strong id="modalPrepTime">0 min</strong>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">Cocción:</span>
+          <strong id="modalCookTime">0 min</strong>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">Tiempo Total:</span>
+          <strong id="modalTotalTime">0 min</strong>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">Costo Aprox:</span>
+          <strong id="modalCostPerServing">~$0 / porción</strong>
+        </div>
+
+        <div class="modal-action-buttons">
+          <button id="btnModalFavorite" class="btn-tool" title="Guardar en favoritos">
+            <svg id="modalFavHeart" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+            </svg>
+            <span id="modalFavText">Favorito</span>
+          </button>
+          <button id="btnModalPrint" class="btn-tool" title="Imprimir receta">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 6 2 18 2 18 9"></polyline>
+              <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+              <rect x="6" y="14" width="12" height="8"></rect>
+            </svg>
+            <span>Imprimir</span>
+          </button>
+          <button id="btnOpenKitchenMode" class="btn-kitchen-mode" title="Iniciar Modo Cocina sin distracciones">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon points="5 3 19 12 5 21 5 3"></polygon>
+            </svg>
+            <span>Modo Cocina</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Cuerpo del Modal: Historia, Ingredientes y Pasos -->
+      <div class="modal-body-layout">
+        
+        <!-- Sección de Historia y Origen Cultural -->
+        <section class="recipe-history-box">
+          <div class="history-header">
+            <span class="history-icon">📜</span>
+            <h3 class="history-title">Historia y Tradición Criolla</h3>
+          </div>
+          <p id="modalRecipeHistory" class="history-text"></p>
+        </section>
+
+        <!-- Bloque Central: 2 Columnas (Ingredientes interactivos vs Instrucciones) -->
+        <div class="recipe-cooking-grid">
+          
+          <!-- Columna Izquierda: Escalador y Lista de Ingredientes -->
+          <aside class="ingredients-column">
+            <div class="ingredients-card">
+              <div class="servings-controller">
+                <span class="servings-title">Comensales:</span>
+                <div class="servings-stepper">
+                  <button id="btnPortionMinus" class="btn-stepper" aria-label="Disminuir comensales">-</button>
+                  <span class="servings-number" id="servingsDisplay">6</span>
+                  <span class="servings-unit">porciones</span>
+                  <button id="btnPortionPlus" class="btn-stepper" aria-label="Aumentar comensales">+</button>
+                </div>
+              </div>
+              <p class="servings-note">Las cantidades y costo total se recalculan automáticamente.</p>
+
+              <!-- Tarjeta de Presupuesto y Costo Estimado Dinámico -->
+              <div class="cost-estimate-card">
+                <div class="cost-estimate-header">
+                  <div class="cost-header-left">
+                    <span class="cost-calc-icon">💵</span>
+                    <span class="cost-calc-title">Presupuesto Estimado</span>
+                  </div>
+                  <span class="cost-tier-pill" id="modalCostTierBadge">Medio</span>
+                </div>
+                <div class="cost-calc-grid">
+                  <div class="cost-metric-box">
+                    <span class="cost-metric-label">Total receta (<span id="modalCostServingsCount">6</span> porc.):</span>
+                    <span class="cost-metric-val main" id="modalCostTotal">$0 CLP</span>
+                  </div>
+                  <div class="cost-metric-box">
+                    <span class="cost-metric-label">Por porción:</span>
+                    <span class="cost-metric-val" id="modalCostServing">~$0 CLP</span>
+                  </div>
+                </div>
+                <p class="cost-calc-note" id="modalCostNote">Calculado a precios de ferias libres y carnicerías locales.</p>
+              </div>
+
+              <h4 class="column-subtitle">Ingredientes Necesarios:</h4>
+              <ul class="ingredients-checklist" id="modalIngredientsList">
+                <!-- Se inyectan con casillas interactivas -->
+              </ul>
+            </div>
+
+            <!-- Caja: El Secreto de la Abuela -->
+            <div class="heritage-secret-card">
+              <div class="secret-header">
+                <span class="secret-icon">👵🏽</span>
+                <h4>El Secreto de la Abuela</h4>
+              </div>
+              <p id="modalGrandmasSecret" class="secret-text"></p>
+            </div>
+
+            <!-- Caja: Maridaje Sugerido -->
+            <div class="wine-pairing-card">
+              <div class="pairing-header">
+                <span class="pairing-icon">🍷</span>
+                <h4>Maridaje Recomendado</h4>
+              </div>
+              <p id="modalWinePairing" class="pairing-text"></p>
+            </div>
+          </aside>
+
+          <!-- Columna Derecha: Paso a Paso -->
+          <article class="instructions-column">
+            <div class="instructions-card">
+              <div class="instructions-header">
+                <h4 class="column-subtitle">Preparación Paso a Paso</h4>
+                <span class="instructions-hint">Marca los pasos completados</span>
+              </div>
+              <ol class="steps-timeline" id="modalStepsList">
+                <!-- Pasos generados dinámicamente con checkboxes y tips -->
+              </ol>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pantalla Completa: MODO COCINA (Kitchen Mode) -->
+  <div class="kitchen-mode-overlay hidden" id="kitchenModeOverlay" role="dialog" aria-modal="true" aria-label="Modo Cocina Pantalla Completa">
+    <div class="kitchen-mode-container">
+      <!-- Barra Superior de Cocina -->
+      <header class="kitchen-header">
+        <div class="kitchen-recipe-info">
+          <span class="kitchen-label">MODO COCINA • PANTALLA COMPLETA</span>
+          <h3 id="kitchenRecipeTitle" class="kitchen-title">Pastel de Choclo Criollo</h3>
+        </div>
+        <div class="kitchen-top-actions">
+          <button id="btnKitchenIngredientsToggle" class="btn-kitchen-tool">
+            <span>📋 Ver Ingredientes</span>
+          </button>
+          <button id="btnCloseKitchenMode" class="btn-kitchen-close" aria-label="Salir de modo cocina">&times; Salir</button>
+        </div>
+      </header>
+
+      <!-- Panel Central con el Paso Actual en Gigante -->
+      <main class="kitchen-step-main">
+        <div class="kitchen-step-progress-bar">
+          <div class="step-progress-fill" id="kitchenProgressFill" style="width: 20%;"></div>
+        </div>
+
+        <div class="kitchen-step-card">
+          <div class="kitchen-step-meta">
+            <span class="step-badge" id="kitchenStepBadge">Paso 1 de 5</span>
+            <h2 class="step-main-title" id="kitchenStepTitle">Preparación del Pino</h2>
+          </div>
+
+          <p class="step-large-text" id="kitchenStepText"></p>
+
+          <div class="step-pro-tip" id="kitchenStepTipBox">
+            <span class="tip-icon">💡</span>
+            <span class="tip-text" id="kitchenStepTip"></span>
+          </div>
+
+          <div class="kitchen-step-timer-shortcut">
+            <button id="btnSetStepTimer" class="btn-step-timer-active">
+              <span>⏱️ Cargar Temporizador del Paso</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Temporizador Rápido de Cocina Integrado -->
+        <div class="kitchen-timer-widget">
+          <div class="timer-display-group">
+            <span class="timer-icon">⏱️</span>
+            <span class="timer-clock" id="timerClock">15:00</span>
+          </div>
+          <div class="timer-presets">
+            <button class="btn-timer-preset" data-minutes="1">+1m</button>
+            <button class="btn-timer-preset" data-minutes="5">+5m</button>
+            <button class="btn-timer-preset" data-minutes="10">+10m</button>
+            <button class="btn-timer-preset" data-minutes="20">+20m</button>
+          </div>
+          <div class="timer-controls">
+            <button id="btnTimerToggle" class="btn-timer-action">Iniciar</button>
+            <button id="btnTimerReset" class="btn-timer-action reset">Reiniciar</button>
+          </div>
+        </div>
+      </main>
+
+      <!-- Barra de Navegación Inferior de Pasos -->
+      <footer class="kitchen-footer-nav">
+        <button id="btnKitchenPrev" class="btn-kitchen-nav prev">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="15 18 9 12 15 6"></polyline>
+          </svg>
+          <span>Paso Anterior</span>
+        </button>
+
+        <div class="kitchen-dots" id="kitchenStepDots">
+          <!-- Puntos indicadores -->
+        </div>
+
+        <button id="btnKitchenNext" class="btn-kitchen-nav next">
+          <span>Siguiente Paso</span>
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </button>
+      </footer>
+
+      <!-- Drawer Desplegable de Ingredientes en Modo Cocina -->
+      <aside class="kitchen-ingredients-drawer hidden" id="kitchenIngredientsDrawer">
+        <div class="drawer-header">
+          <h4>Ingredientes de la Receta</h4>
+          <button id="btnCloseKitchenDrawer" class="btn-close-drawer">&times;</button>
+        </div>
+        <ul class="drawer-ingredients-list" id="kitchenDrawerList">
+          <!-- Ingredientes calculados -->
+        </ul>
+      </aside>
+    </div>
+  </div>
+
+  <!-- Drawer / Modal Lateral de Favoritos -->
+  <div class="favorites-backdrop hidden" id="favoritesBackdrop" role="dialog" aria-modal="true" aria-label="Recetas Favoritas Guardadas">
+    <div class="favorites-drawer">
+      <div class="drawer-top">
+        <div class="drawer-title-group">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="#E63946" stroke="#E63946" stroke-width="1.5">
+            <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+          </svg>
+          <h3>Tus Recetas Guardadas</h3>
+        </div>
+        <button id="btnCloseFavorites" class="modal-close-btn" aria-label="Cerrar favoritos">&times;</button>
+      </div>
+
+      <div class="favorites-list" id="favoritesList">
+        <!-- Tarjetas compactas de favoritos -->
+      </div>
+
+      <div class="favorites-empty hidden" id="favoritesEmpty">
+        <span class="fav-empty-icon">🤍</span>
+        <p>Aún no tienes recetas favoritas guardadas. Haz clic en el corazón de cualquier receta para tenerla siempre a mano.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pie de Página Tradicional Chileno -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-col-main">
+        <div class="footer-brand">
+          <span class="footer-logo-pot">🥘</span>
+          <span class="footer-brand-title">Sabores de Chile</span>
+        </div>
+        <p class="footer-desc">
+          Homenaje digital al patrimonio culinario, la cocina mestiza y las recetas ancestrales transmitidas de generación en generación a lo largo de todo Chile.
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-title">Zonas Gastronómicas</h4>
+        <ul class="footer-links">
+          <li><a href="#" class="footer-zone-link" data-zone="norte">Zona Norte: Sabor Andino</a></li>
+          <li><a href="#" class="footer-zone-link" data-zone="centro">Zona Centro: Tradición Huasa</a></li>
+          <li><a href="#" class="footer-zone-link" data-zone="sur">Zona Sur: Sabores Chilotes</a></li>
+          <li><a href="#" class="footer-zone-link" data-zone="austral">Patagonia Austral: Cordero & Calafate</a></li>
+          <li><a href="#" class="footer-zone-link" data-zone="insular">Rapa Nui: Océano y Polinesia</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4 class="footer-title">Categorías</h4>
+        <ul class="footer-links">
+          <li><a href="#" class="footer-cat-link" data-cat="fondos">Platos de Fondo</a></li>
+          <li><a href="#" class="footer-cat-link" data-cat="postres">Postres y Dulces Criollos</a></li>
+          <li><a href="#" class="footer-cat-link" data-cat="sopas">Sopas, Caldos y Guisos</a></li>
+          <li><a href="#" class="footer-cat-link" data-cat="masas">Masas, Empanadas y Panes</a></li>
+          <li><a href="#" class="footer-cat-link" data-cat="bebidas">Bebidas y Elixires Típicos</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>Hecho con amor por la cocina chilena • HTML5, CSS3 y Vanilla JavaScript • ¡Buen provecho!</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
