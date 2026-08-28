@@ -3625,6 +3625,142 @@ const RECETAS_CHILE = [
         "tip": "¡Al día siguiente recalentadas a fuego lento son aún más ricas y cremosas!"
       }
     ]
+  },
+  {
+    "id": "pie-de-limon",
+    "name": "Pie de Limón Tradicional con Merengue Tostado",
+    "tagline": "La tarta dulce estrella de las onces familiares chilenas con base crocante y crema agridulce",
+    "category": "postres",
+    "categoryLabel": "Postres y Dulces",
+    "zone": "centro",
+    "zoneLabel": "Zona Centro (Tradición Nacional / Onces)",
+    "difficulty": "media",
+    "difficultyLabel": "Media",
+    "prepTime": 30,
+    "cookTime": 25,
+    "totalTime": 55,
+    "servingsBase": 8,
+    "estimatedCost": {
+      "totalBase": 9600,
+      "perServing": 1200,
+      "tier": "economico",
+      "tierLabel": "Económico",
+      "note": "Ingredientes de repostería casera rendidores (limones frescos, leche condensada y huevos)"
+    },
+    "image": "assets/recipes/pie-de-limon.jpg",
+    "history": "Adoptado con pasión en la repostería criolla chilena desde mediados del siglo XX, el pie de limón se convirtió en la reina indiscutida de las pastelerías de barrio, los cumpleaños y las tardes de 'once'. Su balance perfecto entre el crocante de la masa horneada, el toque ácido de los limones chilenos batidos con la dulzura sedosa de la leche condensada y la coronación de picos de merengue dorado al horno o con soplete, evoca recuerdos imborrables de la cocina de casa.",
+    "grandmasSecret": "Para que el merengue no sude ni bote almíbar líquido sobre el relleno con las horas, añade 1 cucharadita de maicena o unas gotas de jugo de limón a las claras firmes mientras bates, y asegúrate de esparcir el merengue sellando completamente hasta los bordes de la masa horneada.",
+    "winePairing": "Té negro en hoja con cáscara de naranja o un café de grano recién pasado.",
+    "tags": [
+      "Pie",
+      "Limón",
+      "Merengue",
+      "Once",
+      "Postres",
+      "Clásico"
+    ],
+    "ingredients": [
+      {
+        "name": "Harina sin polvos de hornear",
+        "quantity": 250,
+        "unit": "g (2 tazas)"
+      },
+      {
+        "name": "Mantequilla sin sal fría cortada en cubos",
+        "quantity": 125,
+        "unit": "g"
+      },
+      {
+        "name": "Azúcar flor o granulada fina",
+        "quantity": 60,
+        "unit": "g (media taza)"
+      },
+      {
+        "name": "Leche condensada tradicional",
+        "quantity": 397,
+        "unit": "g (1 tarro grande)"
+      },
+      {
+        "name": "Jugo de limón natural recién exprimido y colado",
+        "quantity": 120,
+        "unit": "ml (media taza colmada)"
+      },
+      {
+        "name": "Huevos frescos (separados en 4 yemas y 4 claras)",
+        "quantity": 4,
+        "unit": "unidades"
+      },
+      {
+        "name": "Ralladura fina de piel de limón (sin parte blanca)",
+        "quantity": 1,
+        "unit": "cucharadita"
+      },
+      {
+        "name": "Azúcar granulada para el merengue",
+        "quantity": 200,
+        "unit": "g (1 taza)"
+      },
+      {
+        "name": "Esencia de vainilla natural",
+        "quantity": 1,
+        "unit": "cucharadita"
+      },
+      {
+        "name": "Pizca de sal fina",
+        "quantity": 1,
+        "unit": "pizca"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Arenado y Formación de la Masa Base",
+        "timeMinutes": 10,
+        "technique": "Arenado en frío (Sablée)",
+        "text": "En un bowl amplio mezcla la harina, el azúcar flor y la pizca de sal. Añade la mantequilla fría en cubos y trabaja con las yemas de los dedos o un cornet hasta formar migas semejantes a arena húmeda. Agrega 2 yemas y la esencia de vainilla; compacta con suavidad sin amasar para no desarrollar gluten. Forma un disco, envuelve en film y refrigera 15 minutos.",
+        "tip": "No amases la masa; solo júntala. El secreto de una masa quebrada crujiente que se deshace en la boca es mantener la mantequilla fría."
+      },
+      {
+        "step": 2,
+        "title": "Forrado del Molde y Horneado a Ciegas",
+        "timeMinutes": 15,
+        "technique": "Horneado en blanco a 180°C",
+        "text": "Precalienta el horno a 180°C. Enmantequilla una tartera de 24 a 26 cm. Estira la masa fría entre dos papeles manteca hasta 4 mm de grosor y forra el molde levantando los bordes. Pincha la base con un tenedor por toda la superficie. Hornea durante 12 a 15 minutos hasta que los bordes se vean apenas dorados y la base seca.",
+        "tip": "Pinchar bien la base con tenedor evita que la masa se infle durante el horneado."
+      },
+      {
+        "step": 3,
+        "title": "Emulsión del Relleno Cítrico Cremoso",
+        "timeMinutes": 5,
+        "technique": "Emulsión química ácida",
+        "text": "En un bowl bate suavemente las otras 2 yemas con la ralladura de limón. Vierte el tarro completo de leche condensada e incorpora poco a poco el jugo de limón colado mientras revuelves con batidor de mano. Notarás cómo la acidez cítrica espesa la mezcla naturalmente al cuajar las proteínas lácteas.",
+        "tip": "Usa limones amarillos frescos y jugosos colando las semillas para una textura sedosa sin amargor."
+      },
+      {
+        "step": 4,
+        "title": "Relleno y Horneado de Cuajado",
+        "timeMinutes": 12,
+        "technique": "Cuajado a temperatura media (160°C)",
+        "text": "Vierte el relleno cítrico sobre la masa pre-horneada tibia distribuyendo de forma pareja con espátula. Lleva al horno a 160°C durante 10 a 12 minutos para que tome cuerpo y cuaje firmemente sin llegar a dorarse.",
+        "tip": "Al sacarlo debe verse firme en los bordes con un leve temblor en el centro, el cual terminará de asentarse al enfriar."
+      },
+      {
+        "step": 5,
+        "title": "Montado de Merengue en Picos Firmes",
+        "timeMinutes": 10,
+        "technique": "Merengue suizo a baño maría",
+        "text": "Coloca las 4 claras con la taza de azúcar en un bowl a baño maría suave sin que el agua toque el fondo. Revuelve constantemente hasta que los granos de azúcar se disuelvan por completo al tacto. Pasa a batidora eléctrica a velocidad alta durante 7 a 8 minutos hasta obtener un merengue blanco, espeso y con picos firmes y brillantes.",
+        "tip": "El merengue suizo es mucho más estable y seguro que el francés crudo: no suelta agua y dura impecable por días."
+      },
+      {
+        "step": 6,
+        "title": "Decoración y Dorado de Picos",
+        "timeMinutes": 3,
+        "technique": "Gratinado / Dorado con soplete",
+        "text": "Decora la tarta con manga pastelera o con una cuchara formando rústicos picos elevados, asegurándote de sellar hasta el borde de la masa. Dora los picos con soplete de cocina o lleva bajo el grill del horno a 220°C durante 2 a 3 minutos vigilando atentamente. Deja enfriar a temperatura ambiente y refrigera 1 hora antes de cortar.",
+        "tip": "Para un corte limpio tipo pastelería, moja la hoja del cuchillo en agua caliente antes de cada porción."
+      }
+    ]
   }
 ];
 
