@@ -248,8 +248,9 @@ a {
   padding: 4.5rem 1.5rem 3.5rem;
   background: linear-gradient(180deg, var(--bg-subtle) 0%, var(--bg-page) 100%);
   border-bottom: 1px solid var(--border-color);
-  overflow: hidden;
+  overflow: visible;
   text-align: center;
+  z-index: 50;
 }
 
 .hero-background-pattern {
@@ -259,12 +260,14 @@ a {
   background-size: 28px 28px;
   opacity: 0.08;
   pointer-events: none;
+  border-radius: inherit;
 }
 
 .hero-content {
   position: relative;
   max-width: 860px;
   margin: 0 auto;
+  z-index: 60;
 }
 
 .hero-badge {
@@ -309,6 +312,7 @@ a {
   position: relative;
   max-width: 640px;
   margin: 0 auto 2.2rem;
+  z-index: 120;
 }
 
 .search-input-box {
@@ -372,15 +376,16 @@ a {
   top: calc(100% + 8px);
   left: 0;
   right: 0;
-  z-index: 150;
-  background: var(--bg-surface);
+  z-index: 9999;
+  background-color: var(--bg-surface);
   border: 1px solid var(--border-color);
   border-radius: var(--radius-md);
-  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.18), 0 4px 12px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.22), 0 8px 18px rgba(0, 0, 0, 0.12);
   overflow: hidden;
   text-align: left;
-  animation: dropdownSlide 0.2s cubic-bezier(0.16, 1, 0.3, 1);
-  backdrop-filter: blur(16px);
+  animation: dropdownSlide 0.18s cubic-bezier(0.16, 1, 0.3, 1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
 }
 
 @keyframes dropdownSlide {
@@ -633,6 +638,8 @@ a {
   justify-content: center;
   gap: 1.2rem;
   flex-wrap: wrap;
+  position: relative;
+  z-index: 1;
 }
 
 .stat-pill {
