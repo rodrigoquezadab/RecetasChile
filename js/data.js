@@ -3761,6 +3761,1677 @@ const RECETAS_CHILE = [
         "tip": "Para un corte limpio tipo pastelería, moja la hoja del cuchillo en agua caliente antes de cada porción."
       }
     ]
+  },
+  {
+    "id": "porotos-con-riendas",
+    "name": "Porotos con Riendas Tradicionales",
+    "tagline": "El rey del campo chileno con tallarines al dente, zapallo dulce y sofrito de 'color'",
+    "category": "sopas",
+    "categoryLabel": "Sopas y Guisos",
+    "zone": "centro",
+    "zoneLabel": "Zona Centro (Valle Campesino)",
+    "difficulty": "facil",
+    "difficultyLabel": "Fácil",
+    "prepTime": 25,
+    "cookTime": 60,
+    "totalTime": 85,
+    "servingsBase": 6,
+    "estimatedCost": {
+      "totalBase": 8700,
+      "perServing": 1450,
+      "tier": "economico",
+      "tierLabel": "Económico",
+      "note": "Porotos secos, tallarines y verduras de temporada muy rendidores"
+    },
+    "image": "assets/recipes/porotos-con-riendas.jpg",
+    "history": "Nacido en las campiñas del Valle Central, este plato combina los porotos tórtola o burros con fideos largos ('riendas' por su parecido a las riendas de los caballos de arreo) y zapallo camote. Es el emblema de la contundencia campesina, diseñado para alimentar a los trabajadores agrícolas durante las faenas de invierno.",
+    "grandmasSecret": "Cocina los porotos con un trozo de zapallo y una ramita de orégano fresco. Cuando el zapallo esté muy tierno, aplástalo contra el borde de la olla para que el caldo espese naturalmente antes de tirar los tallarines partidos en dos.",
+    "winePairing": "Vino Pipeño tinto campesino o un Carménère del Valle del Maule.",
+    "tags": [
+      "Porotos",
+      "Tallarines",
+      "Zapallo",
+      "Campesino",
+      "Invierno",
+      "Económico"
+    ],
+    "ingredients": [
+      {
+        "name": "Porotos secos tórtola o burros remojados desde la noche anterior",
+        "quantity": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Fideos tallarines o espaguetis partidos a la mitad",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Zapallo amarillo camote en cubos",
+        "quantity": 350,
+        "unit": "g"
+      },
+      {
+        "name": "Cebolla picada en cubos finos",
+        "quantity": 1,
+        "unit": "unidad"
+      },
+      {
+        "name": "Longaniza artesanal en rodajas (o chicharrones)",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Dientes de ajo finamente picados",
+        "quantity": 2,
+        "unit": "dientes"
+      },
+      {
+        "name": "Ají de color (pimentón dulce molido)",
+        "quantity": 1,
+        "unit": "cucharada"
+      },
+      {
+        "name": "Orégano seco y comino molido",
+        "quantity": 1,
+        "unit": "cucharadita de c/u"
+      },
+      {
+        "name": "Aceite de maravilla o manteca",
+        "quantity": 2,
+        "unit": "cucharadas"
+      },
+      {
+        "name": "Caldo de cocción o agua caliente",
+        "quantity": 1.5,
+        "unit": "litros"
+      },
+      {
+        "name": "Sal de mar al gusto",
+        "quantity": 1,
+        "unit": "al gusto"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Cocción de Porotos y Zapallo",
+        "timeMinutes": 45,
+        "technique": "Hervor suave en olla profunda",
+        "text": "En una olla grande coloca los porotos escurridos con agua limpia que los cubra por 4 dedos y los cubos de zapallo. Lleva a hervor y cocina a fuego medio durante 40 a 45 minutos hasta que los porotos estén tiernos.",
+        "tip": "No agregues sal hasta que los porotos estén blandos para evitar que se endurezca el pellejo."
+      },
+      {
+        "step": 2,
+        "title": "Elaboración del Sofrito con 'Color'",
+        "timeMinutes": 10,
+        "technique": "Sofrito campesino a 130°C",
+        "text": "En una sartén calienta la manteca o aceite, dora las rodajitas de longaniza y agrega la cebolla, el ajo, ají de color, comino y orégano. Sofríe hasta dorar.",
+        "tip": "La 'color' (aceite con ají de color caliente) le da el aroma criollo característico."
+      },
+      {
+        "step": 3,
+        "title": "Espesado con Zapallo y Adición de Sofrito",
+        "timeMinutes": 5,
+        "technique": "Ligazón rústica",
+        "text": "Aplasta parte del zapallo con cuchara de madera contra la olla para darle cremosidad al caldo. Vierte el sofrito completo con su juguito.",
+        "tip": "Si te gusta más caldúo, agrega una taza más de agua caliente."
+      },
+      {
+        "step": 4,
+        "title": "Tirar las 'Riendas' (Tallarines)",
+        "timeMinutes": 12,
+        "technique": "Cocción al dente de pasta",
+        "text": "Agrega los tallarines partidos al medio revolviendo suavemente para que no se peguen. Cocina a fuego medio-bajo durante 10 a 12 minutos hasta que la pasta esté al dente.",
+        "tip": "No sobrecocines los fideos; continuarán absorbiendo caldo al reposar."
+      },
+      {
+        "step": 5,
+        "title": "Reposo y Servicio Criollo",
+        "timeMinutes": 3,
+        "technique": "Servicio tradicional",
+        "text": "Deja reposar 5 minutos tapado. Sirve bien caliente en paila de greda o plato hondo, acompañado de pebre criollo o ají verde fresco.",
+        "tip": "Al día siguiente se vuelven aún más espesos y deliciosos."
+      }
+    ]
+  },
+  {
+    "id": "tomatican-criollo",
+    "name": "Tomaticán Criollo con Choclo y Carne",
+    "tagline": "El guiso veraniego por excelencia que une tomates jugosos, choclo tierno y carne salteada",
+    "category": "fondos",
+    "categoryLabel": "Platos de Fondo",
+    "zone": "centro",
+    "zoneLabel": "Zona Centro (Valle Central)",
+    "difficulty": "facil",
+    "difficultyLabel": "Fácil",
+    "prepTime": 20,
+    "cookTime": 35,
+    "totalTime": 55,
+    "servingsBase": 6,
+    "estimatedCost": {
+      "totalBase": 15600,
+      "perServing": 2600,
+      "tier": "medio",
+      "tierLabel": "Medio",
+      "note": "Carne de vacuno jugosa con abundantes tomates maduros y choclos de huerta"
+    },
+    "image": "assets/recipes/tomatican-criollo.jpg",
+    "history": "Un clásico veraniego que data del período colonial, cuando la cosecha de tomates maduros ('tomates limachinos') y choclos chocleros tiernos inundaba los campos de la zona central. Se cocina rápidamente para preservar la frescura y jugosidad natural del tomate.",
+    "grandmasSecret": "No agregues agua al guiso: pela los tomates maduros y déjalos que suelten su propio caldo dulce y ácido al contacto con la carne sellada y el choclo.",
+    "winePairing": "Cinsault del Valle de Itata o un Carménère ligero.",
+    "tags": [
+      "Tomate",
+      "Choclo",
+      "Carne",
+      "Verano",
+      "Criollo"
+    ],
+    "ingredients": [
+      {
+        "name": "Carne de vacuno (posta rosada o lomo) en tiritas",
+        "quantity": 600,
+        "unit": "g"
+      },
+      {
+        "name": "Tomates maduros pelados y picados en gajos gruesos",
+        "quantity": 1,
+        "unit": "kg (5 a 6 unidades)"
+      },
+      {
+        "name": "Choclos chocleros frescos desgranados",
+        "quantity": 3,
+        "unit": "unidades"
+      },
+      {
+        "name": "Cebollas grandes cortadas en pluma",
+        "quantity": 2,
+        "unit": "unidades"
+      },
+      {
+        "name": "Dientes de ajo laminados",
+        "quantity": 2,
+        "unit": "dientes"
+      },
+      {
+        "name": "Orégano seco, comino y ají de color",
+        "quantity": 1,
+        "unit": "cucharadita de c/u"
+      },
+      {
+        "name": "Aceite de maravilla",
+        "quantity": 3,
+        "unit": "cucharadas"
+      },
+      {
+        "name": "Hojas de albahaca fresca picadas",
+        "quantity": 0.5,
+        "unit": "taza"
+      },
+      {
+        "name": "Sal y pimienta negra",
+        "quantity": 1,
+        "unit": "al gusto"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Sellado de la Carne",
+        "timeMinutes": 10,
+        "technique": "Salteado a fuego fuerte (180°C)",
+        "text": "En una olla o sartén profunda calienta 2 cucharadas de aceite y sella las tiritas de vacuno salpimentadas hasta que doren bien por fuera. Reserva en un plato con sus jugos.",
+        "tip": "Sella en tandas si tu olla es pequeña para evitar que la carne hierva en lugar de dorar."
+      },
+      {
+        "step": 2,
+        "title": "Sofrito de Cebolla y Condimentos",
+        "timeMinutes": 10,
+        "technique": "Pochado suave de cebolla pluma",
+        "text": "En la misma olla con los jugos de la carne agrega la otra cucharada de aceite y rehoga la cebolla en pluma y los ajos a fuego medio hasta que la cebolla esté tierna y translúcida. Agrega el orégano, ají de color y comino.",
+        "tip": "La cebolla caramelizada le da el dulzor de base al plato."
+      },
+      {
+        "step": 3,
+        "title": "Incorporación de Choclo y Tomates",
+        "timeMinutes": 15,
+        "technique": "Cocción lenta con jugos naturales",
+        "text": "Reincorpora la carne con sus jugos, añade el choclo desgranado y los tomates picados. Tapa y cocina a fuego suave durante 15 minutos sin añadir agua; el tomate soltará un caldo abundante.",
+        "tip": "Los tomates limachinos maduros aportan el mejor sabor y caldo."
+      },
+      {
+        "step": 4,
+        "title": "Punto Final con Albahaca y Guarnición",
+        "timeMinutes": 5,
+        "technique": "Aromatización en caliente",
+        "text": "Apaga el fuego y añade las hojas de albahaca fresca picadas. Revuelve suavemente. Sirve caliente acompañado de papas cocidas al vapor o arroz blanco recién graneado.",
+        "tip": "La albahaca al final conserva su perfume intacto sin amargar."
+      }
+    ]
+  },
+  {
+    "id": "carbonada-criolla",
+    "name": "Carbonada Criolla Tradicional",
+    "tagline": "La reconfortante sopa hogareña con cubitos de vacuno, papas, zapallo y verduras de estación",
+    "category": "sopas",
+    "categoryLabel": "Sopas y Guisos",
+    "zone": "centro",
+    "zoneLabel": "Zona Centro / Valle Central",
+    "difficulty": "facil",
+    "difficultyLabel": "Fácil",
+    "prepTime": 20,
+    "cookTime": 40,
+    "totalTime": 60,
+    "servingsBase": 6,
+    "estimatedCost": {
+      "totalBase": 13200,
+      "perServing": 2200,
+      "tier": "medio",
+      "tierLabel": "Medio",
+      "note": "Carne magra en cubitos con abundante variedad de hortalizas frescas"
+    },
+    "image": "assets/recipes/carbonada-criolla.jpg",
+    "history": "Un pilar de la cocina de olla chilena, llamada así por prepararse tradicionalmente sobre las brasas de carbón de las cocinas mineras y de campo. Todos sus ingredientes van rigurosamente picados en cubitos parejos para que quepan juntos en cada cucharada.",
+    "grandmasSecret": "El secreto estético y culinario de una gran carbonada es cortar la carne, las papas y el zapallo en cubitos exactamente del mismo tamaño (1 cm), dorando la carne primero con el sofrito para que el caldo tome un tono dorado limpio.",
+    "winePairing": "Vino tinto País o Cabernet Sauvignon joven.",
+    "tags": [
+      "Sopa",
+      "Carne",
+      "Papas",
+      "Zapallo",
+      "Familiar"
+    ],
+    "ingredients": [
+      {
+        "name": "Carne de vacuno (posta o sobrecostilla) en cubos de 1 cm",
+        "quantity": 500,
+        "unit": "g"
+      },
+      {
+        "name": "Papas medianas peladas en cubos de 1 cm",
+        "quantity": 3,
+        "unit": "unidades"
+      },
+      {
+        "name": "Zapallo camote pelado en cubos de 1 cm",
+        "quantity": 250,
+        "unit": "g"
+      },
+      {
+        "name": "Zanahoria en cubitos pequeños",
+        "quantity": 1,
+        "unit": "unidad"
+      },
+      {
+        "name": "Cebolla picada fina",
+        "quantity": 1,
+        "unit": "unidad"
+      },
+      {
+        "name": "Choclo desgranado tierno",
+        "quantity": 1,
+        "unit": "taza"
+      },
+      {
+        "name": "Porotitos verdes cortados o arvejas frescas",
+        "quantity": 1,
+        "unit": "taza"
+      },
+      {
+        "name": "Pimiento rojo picado en cubitos",
+        "quantity": 0.5,
+        "unit": "unidad"
+      },
+      {
+        "name": "Caldo de carne caliente o agua",
+        "quantity": 1.5,
+        "unit": "litros"
+      },
+      {
+        "name": "Ají de color, orégano y comino",
+        "quantity": 1,
+        "unit": "cucharadita de c/u"
+      },
+      {
+        "name": "Perejil fresco picado para servir",
+        "quantity": 0.5,
+        "unit": "taza"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Dorado de Carne y Sofrito",
+        "timeMinutes": 12,
+        "technique": "Sofrito en olla profunda",
+        "text": "En una olla grande con 2 cucharadas de aceite, dora los cubitos de vacuno hasta que tomen buen color. Agrega la cebolla, pimiento, ajo y zanahoria con el ají de color, orégano y comino. Sofríe 6 minutos.",
+        "tip": "Dorar bien la carne sella sus jugos y aporta el fondo sabroso al caldo."
+      },
+      {
+        "step": 2,
+        "title": "Adición de Caldo, Papas y Zapallo",
+        "timeMinutes": 20,
+        "technique": "Hervor controlado (95°C)",
+        "text": "Vierte el caldo de carne caliente y añade los cubitos de papa y zapallo camote junto a 1 cucharadita colmada de sal. Cocina a fuego medio durante 15 a 20 minutos.",
+        "tip": "Mantén el hervor suave para que las papas no se rompan."
+      },
+      {
+        "step": 3,
+        "title": "Incorporación de Choclo y Porotitos Verdes",
+        "timeMinutes": 10,
+        "technique": "Cocción final de hortalizas",
+        "text": "Agrega el choclo desgranado y los porotos verdes o arvejas. Cocina por 8 a 10 minutos más hasta que todas las verduras estén tiernas en su punto.",
+        "tip": "Las verduras verdes se agregan al final para conservar su color vivo."
+      },
+      {
+        "step": 4,
+        "title": "Servicio Humeante en Plato Hondo",
+        "timeMinutes": 3,
+        "technique": "Servicio tradicional",
+        "text": "Rectifica la sal y pimienta. Sirve en platos hondos con un cucharón generoso asegurando verduras y carne en cada porción, y espolvorea con perejil fresco picado.",
+        "tip": "Ideal para servir con una paila de pan amasado tibio al lado."
+      }
+    ]
+  },
+  {
+    "id": "machas-a-la-parmesana",
+    "name": "Machas a la Parmesana Tradicionales",
+    "tagline": "El maridaje costero perfecto de machas tiernas, vino blanco, mantequilla y queso parmesano gratinado",
+    "category": "fondos",
+    "categoryLabel": "Platos de Fondo",
+    "zone": "centro",
+    "zoneLabel": "Zona Centro (Costa y Caletas)",
+    "difficulty": "facil",
+    "difficultyLabel": "Fácil",
+    "prepTime": 15,
+    "cookTime": 10,
+    "totalTime": 25,
+    "servingsBase": 4,
+    "estimatedCost": {
+      "totalBase": 18000,
+      "perServing": 4500,
+      "tier": "gourmet",
+      "tierLabel": "Gourmet / Especial",
+      "note": "Mariscos finos de la costa chilena gratinados con queso parmesano"
+    },
+    "image": "assets/recipes/machas-a-la-parmesana.jpg",
+    "history": "Creadas en los restaurantes costeros de Viña del Mar en la década de 1950, las machas a la parmesana se convirtieron de inmediato en la insignia indiscutible de las marisquerías y caletas de Chile. Su cocción al horno muy caliente debe ser fugaz para mantener la lengua de macha tierna y jugosa.",
+    "grandmasSecret": "El horno debe estar precalentado a máxima temperatura (220°C a 250°C). Las machas no deben pasar más de 6 a 8 minutos en el horno; si se sobrecocinan, se vuelven gomosas.",
+    "winePairing": "Sauvignon Blanc fresco del Valle de Casablanca o Leyda.",
+    "tags": [
+      "Machas",
+      "Mariscos",
+      "Parmesano",
+      "Costa",
+      "Gourmet",
+      "Entrada"
+    ],
+    "ingredients": [
+      {
+        "name": "Lenguas de machas frescas y limpias (en sus conchas)",
+        "quantity": 24,
+        "unit": "unidades"
+      },
+      {
+        "name": "Queso parmesano o mantecoso rallado fino",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Mantequilla sin sal en trocitos fríos",
+        "quantity": 60,
+        "unit": "g"
+      },
+      {
+        "name": "Vino blanco seco (Sauvignon Blanc)",
+        "quantity": 0.5,
+        "unit": "taza"
+      },
+      {
+        "name": "Crema de leche espesa",
+        "quantity": 4,
+        "unit": "cucharadas"
+      },
+      {
+        "name": "Gotas de jugo de limón y pimienta blanca",
+        "quantity": 1,
+        "unit": "al gusto"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Limpieza y Disposición en Conchas",
+        "timeMinutes": 8,
+        "technique": "Mise en place de mariscos",
+        "text": "Lava muy bien las conchas de las machas para retirar cualquier resto de arena. Coloca una lengua de macha limpia en cada media concha y acomódalas sobre una bandeja de horno (puedes usar una capa de sal gruesa en la bandeja para que no se inclinen).",
+        "tip": "Retira la pequeña bolsa oscura de la macha para una presentación impecable."
+      },
+      {
+        "step": 2,
+        "title": "Aderezo con Vino, Mantequilla y Crema",
+        "timeMinutes": 4,
+        "technique": "Montaje previo a gratinar",
+        "text": "Agrega sobre cada macha unas gotas de jugo de limón, un chorrito de vino blanco (media cucharadita), unas gotas de crema y un trocito de mantequilla fría.",
+        "tip": "La mantequilla fría se derrite lentamente humectando la macha durante el golpe de calor."
+      },
+      {
+        "step": 3,
+        "title": "Corona de Queso Parmesano",
+        "timeMinutes": 3,
+        "technique": "Armado de costra",
+        "text": "Cubre generosamente cada concha con queso parmesano rallado y una pizca de pimienta blanca molida.",
+        "tip": "Usa queso parmesano recién rallado para un gratinado dorado y elástico."
+      },
+      {
+        "step": 4,
+        "title": "Gratinado a Fuego Máximo",
+        "timeMinutes": 7,
+        "technique": "Gratinado a 230°C / Grill",
+        "text": "Hornea a 230°C durante 6 a 8 minutos hasta que el queso burbujee y adquiera manchitas doradas. Retira inmediatamente y sirve humeante con rodajas de limón fresco.",
+        "tip": "Sirve de inmediato en la misma bandeja o plato con paño para no quemarse."
+      }
+    ]
+  },
+  {
+    "id": "bistec-a-lo-pobre",
+    "name": "Bistec a lo Pobre Tradicional",
+    "tagline": "El monumento de las fuentes de soda: carne jugosa sobre papas fritas caseras, cebolla dorada y huevos fritos",
+    "category": "fondos",
+    "categoryLabel": "Platos de Fondo",
+    "zone": "centro",
+    "zoneLabel": "Zona Centro / Fuentes de Soda",
+    "difficulty": "facil",
+    "difficultyLabel": "Fácil",
+    "prepTime": 20,
+    "cookTime": 25,
+    "totalTime": 45,
+    "servingsBase": 4,
+    "estimatedCost": {
+      "totalBase": 15200,
+      "perServing": 3800,
+      "tier": "medio",
+      "tierLabel": "Medio",
+      "note": "Corte de carne vacuno noble con abundante guarnición de papas, cebolla y huevos"
+    },
+    "image": "assets/recipes/bistec-a-lo-pobre.jpg",
+    "history": "A pesar de su nombre humilde, es uno de los platos más opulentos y celebrados del recetario nacional. Nacido en los restaurantes populares de Santiago y Valparaíso a fines del siglo XIX, su combinación de carne a la plancha, cebolla dulce pochada, papas doradas y dos huevos fritos encima es un homenaje a la generosidad de las mesas chilenas.",
+    "grandmasSecret": "Cocina la cebolla en pluma a fuego muy lento con una pizca de azúcar y sal durante 20 minutos hasta que tome ese tono caramelo rubio profundo sin quemarse, y fríe los huevos en aceite limpio para que la yema quede líquida y unte las papas fritas.",
+    "winePairing": "Cabernet Sauvignon del Valle del Maipo.",
+    "tags": [
+      "Carne",
+      "Papas Fritas",
+      "Huevos",
+      "Cebolla",
+      "Clásico"
+    ],
+    "ingredients": [
+      {
+        "name": "Bistecs de lomo liso o posta de vacuno (200 g c/u)",
+        "quantity": 4,
+        "unit": "unidades"
+      },
+      {
+        "name": "Papas grandes para freír peladas y cortadas en bastones",
+        "quantity": 1.2,
+        "unit": "kg"
+      },
+      {
+        "name": "Cebollas grandes cortadas en pluma",
+        "quantity": 3,
+        "unit": "unidades"
+      },
+      {
+        "name": "Huevos de campo frescos",
+        "quantity": 8,
+        "unit": "unidades (2 por porción)"
+      },
+      {
+        "name": "Aceite para freír las papas y cocinar",
+        "quantity": 1,
+        "unit": "litro"
+      },
+      {
+        "name": "Mantequilla para la carne",
+        "quantity": 30,
+        "unit": "g"
+      },
+      {
+        "name": "Sal y pimienta negra recién molida",
+        "quantity": 1,
+        "unit": "al gusto"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Caramelizado Lento de la Cebolla",
+        "timeMinutes": 20,
+        "technique": "Pochado y confitado a fuego bajo",
+        "text": "En una sartén con 2 cucharadas de aceite, sofríe la cebolla en pluma a fuego suave con media cucharadita de sal durante 20 minutos, revolviendo con frecuencia hasta que esté muy blanda, traslúcida y dorada como miel.",
+        "tip": "La paciencia al dorar la cebolla aporta el sabor dulce y umami característico del plato."
+      },
+      {
+        "step": 2,
+        "title": "Fritura de Papas Caseras Crujientes",
+        "timeMinutes": 15,
+        "technique": "Fritura profunda en dos tiempos (160°C y 190°C)",
+        "text": "Seca muy bien los bastones de papa con paño limpio. Fríe en abundante aceite caliente hasta que estén tiernas por dentro y doradas y crujientes por fuera. Escurre sobre papel absorbente y sala de inmediato.",
+        "tip": "Secar las papas antes de freír es la clave absoluta para que no absorban aceite y queden crujientes."
+      },
+      {
+        "step": 3,
+        "title": "Cocción del Bistec a la Plancha",
+        "timeMinutes": 8,
+        "technique": "Sellado a alta temperatura (200°C)",
+        "text": "En una plancha o sartén de fierro muy caliente con un toque de aceite y mantequilla, dora los bistecs salpimentados durante 3 a 4 minutos por lado para que queden jugosos al centro.",
+        "tip": "Deja reposar la carne 2 minutos antes de montar el plato para redistribuir sus jugos."
+      },
+      {
+        "step": 4,
+        "title": "Fritura de Huevos y Montaje del Cerro",
+        "timeMinutes": 5,
+        "technique": "Fritura con yema blanda y montaje",
+        "text": "Fríe los huevos dejando la yema tierna y la clara cocida con borde encaje. En cada plato grande arma una base de papas fritas crujientes, coloca el bistec encima, cubre con abundante cebolla caramelizada y corona con dos huevos fritos.",
+        "tip": "Romper la yema sobre las papas calientes es el ritual sagrado de este plato."
+      }
+    ]
+  },
+  {
+    "id": "chacarero-tradicional",
+    "name": "Chacarero Tradicional en Pan Frica",
+    "tagline": "El sándwich de la huerta chilena: tierno churrasco con porotos verdes, tomate fresco y ají verde",
+    "category": "fondos",
+    "categoryLabel": "Platos de Fondo / Sánguches",
+    "zone": "centro",
+    "zoneLabel": "Zona Centro (Fuentes de Soda)",
+    "difficulty": "facil",
+    "difficultyLabel": "Fácil",
+    "prepTime": 15,
+    "cookTime": 15,
+    "totalTime": 30,
+    "servingsBase": 4,
+    "estimatedCost": {
+      "totalBase": 11600,
+      "perServing": 2900,
+      "tier": "medio",
+      "tierLabel": "Medio",
+      "note": "Carne a la plancha con abundantes verduras de chacra en pan frica artesanal"
+    },
+    "image": "assets/recipes/chacarero-tradicional.jpg",
+    "history": "Bautizado en homenaje a los campesinos y 'chacras' agrícolas de la zona central de Chile, este sándwich combina con genialidad el churrasco de vacuno con ingredientes frescos de huerta: porotos verdes tiernos cocidos al dente, rodajas de tomate y ají verde fresco.",
+    "grandmasSecret": "Cocina los porotos verdes en agua hirviendo con sal solo 4 a 5 minutos y pásalos de inmediato por agua con hielo: esto fija su color verde esmeralda brillante y su textura crujiente.",
+    "winePairing": "Cerveza rubia helada artesanal o vino blanco Sauvignon Blanc.",
+    "tags": [
+      "Chacarero",
+      "Sándwich",
+      "Porotos Verdes",
+      "Tomate",
+      "Once"
+    ],
+    "ingredients": [
+      {
+        "name": "Bistecs delgados de vacuno (posta o asiento) para churrasco",
+        "quantity": 500,
+        "unit": "g"
+      },
+      {
+        "name": "Pan frica artesanal grande cortado al medio",
+        "quantity": 4,
+        "unit": "unidades"
+      },
+      {
+        "name": "Porotos verdes tiernos deshilachados y cortados en tiritas",
+        "quantity": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Tomates maduros grandes cortados en rodajas finas",
+        "quantity": 2,
+        "unit": "unidades"
+      },
+      {
+        "name": "Ají verde chileno fresco cortado en tiritas finas (opcional)",
+        "quantity": 2,
+        "unit": "unidades"
+      },
+      {
+        "name": "Mayonesa casera opcional",
+        "quantity": 0.5,
+        "unit": "taza"
+      },
+      {
+        "name": "Sal y aceite para la plancha",
+        "quantity": 1,
+        "unit": "al gusto"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Blanqueado de Porotos Verdes",
+        "timeMinutes": 8,
+        "technique": "Blanqueado y corte térmico en hielo",
+        "text": "Hierve los porotos verdes en agua con sal por 4 minutos. Escúrrelos y pásalos inmediatamente por un bowl con agua y hielo durante 2 minutos. Escurre y aliña con una pizca de sal y gotas de aceite.",
+        "tip": "El choque térmico mantiene el poroto verde crocante y evita que se desmorone en el pan."
+      },
+      {
+        "step": 2,
+        "title": "Tostado Suave del Pan Frica",
+        "timeMinutes": 4,
+        "technique": "Tostado en plancha",
+        "text": "Abre los panes frica y dora ligeramente las caras internas sobre una plancha tibia hasta que estén tibios y crujientes.",
+        "tip": "El pan tibio soporta mejor la jugosidad del tomate sin ablandarse."
+      },
+      {
+        "step": 3,
+        "title": "Salteado Rápido del Churrasco",
+        "timeMinutes": 5,
+        "technique": "Cocción a la plancha viva",
+        "text": "En la plancha bien caliente con un chorrito de aceite, dora las láminas de carne durante 1 a 2 minutos por lado con sal al gusto hasta que estén bien jugosas.",
+        "tip": "La carne debe hacerse rápido para que no pierda sus jugos naturales."
+      },
+      {
+        "step": 4,
+        "title": "Armado Estratégico del Chacarero",
+        "timeMinutes": 3,
+        "technique": "Montaje estratificado",
+        "text": "Sobre la base del pan untada ligeramente con mayonesa, coloca el churrasco caliente, cubre con una capa generosa de rodajas de tomate, luego un cerro de porotos verdes crocantes y corona con tiritas de ají verde al gusto. Tapa y sirve inmediatamente.",
+        "tip": "¡Cómetelo con las dos manos y muchas servilletas a mano!"
+      }
+    ]
+  },
+  {
+    "id": "barros-luco",
+    "name": "Barros Luco Tradicional en Marraqueta",
+    "tagline": "El sándwich presidencial chileno: finas láminas de carne a la plancha y abundante queso mantecoso derretido",
+    "category": "fondos",
+    "categoryLabel": "Platos de Fondo / Sánguches",
+    "zone": "centro",
+    "zoneLabel": "Zona Centro (Club de la Unión / Fuentes de Soda)",
+    "difficulty": "facil",
+    "difficultyLabel": "Fácil",
+    "prepTime": 10,
+    "cookTime": 10,
+    "totalTime": 20,
+    "servingsBase": 4,
+    "estimatedCost": {
+      "totalBase": 11200,
+      "perServing": 2800,
+      "tier": "medio",
+      "tierLabel": "Medio",
+      "note": "Carne de vacuno jugosa con generoso queso chanco o mantecoso chileno"
+    },
+    "image": "assets/recipes/barros-luco.jpg",
+    "history": "Debe su nombre al presidente de Chile Ramón Barros Luco (1910-1915), quien pedía invariablemente en la confitería Torres y en el Club de la Unión una marraqueta caliente con carne a la plancha y queso fundido. Es uno de los hitos gastronómicos más venerados del país.",
+    "grandmasSecret": "Derrite el queso mantecoso colocándolo directamente sobre la carne mientras se cocina en la plancha, y tapa la sartén con una tapa o fuente metálica durante 1 minuto: el vapor fundirá el queso de forma perfecta y cremosa envolviendo la carne.",
+    "winePairing": "Vino tinto Cabernet Sauvignon o un shop de cerveza negra.",
+    "tags": [
+      "Barros Luco",
+      "Sándwich",
+      "Queso",
+      "Carne",
+      "Marraqueta",
+      "Clásico"
+    ],
+    "ingredients": [
+      {
+        "name": "Bistecs delgados de vacuno (lomo o posta) para churrasco",
+        "quantity": 500,
+        "unit": "g"
+      },
+      {
+        "name": "Pan marraqueta o pan batido recién tostado",
+        "quantity": 4,
+        "unit": "unidades (8 mitades)"
+      },
+      {
+        "name": "Queso mantecoso o chanco chileno en láminas abundantes",
+        "quantity": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Mantequilla para la plancha",
+        "quantity": 30,
+        "unit": "g"
+      },
+      {
+        "name": "Sal y pimienta al gusto",
+        "quantity": 1,
+        "unit": "al gusto"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Tostado de la Marraqueta",
+        "timeMinutes": 5,
+        "technique": "Tostado crujiente",
+        "text": "Abre las marraquetas y tuesta las caras interiores en tostador chileno o sobre la plancha hasta que estén bien calientes y crujientes por fuera.",
+        "tip": "La corteza crocante de la marraqueta es el vehículo perfecto para el queso fundido."
+      },
+      {
+        "step": 2,
+        "title": "Planchado de la Carne",
+        "timeMinutes": 5,
+        "technique": "Sellado rápido a la plancha",
+        "text": "En una plancha o sartén amplia con mantequilla derretida, saltea las láminas de carne salpimentadas a fuego alto por 1 minuto por lado.",
+        "tip": "La carne debe quedar tierna y muy jugosa."
+      },
+      {
+        "step": 3,
+        "title": "Fundido del Queso Mantecoso",
+        "timeMinutes": 3,
+        "technique": "Fundido por vapor con campana",
+        "text": "Agrupa la carne en 4 porciones en la plancha y cubre cada montón con abundante queso mantecoso. Vierte unas gotas de agua al lado en la plancha y tapa de inmediato con una tapa o pocillo metálico por 60 segundos.",
+        "tip": "El vapor derrite el queso de forma uniforme creando una cascada elástica dorada."
+      },
+      {
+        "step": 4,
+        "title": "Montaje y Servicio Inmediato",
+        "timeMinutes": 2,
+        "technique": "Montaje caliente",
+        "text": "Con una espátula ancha levanta cada porción de carne con su manto de queso derretido y colócala dentro de la marraqueta caliente. Presiona suavemente y sirve de inmediato mientras el queso estira al morder.",
+        "tip": "El Barros Luco se come de inmediato para disfrutar el queso en su máxima elasticidad."
+      }
+    ]
+  },
+  {
+    "id": "leche-asada",
+    "name": "Leche Asada Tradicional de la Abuela",
+    "tagline": "El postre de horno más entrañable de Chile: crema de leche horneada con caramelo y costra dorada",
+    "category": "postres",
+    "categoryLabel": "Postres y Dulces",
+    "zone": "centro",
+    "zoneLabel": "Zona Centro (Tradición Familiar)",
+    "difficulty": "facil",
+    "difficultyLabel": "Fácil",
+    "prepTime": 15,
+    "cookTime": 50,
+    "totalTime": 65,
+    "servingsBase": 8,
+    "estimatedCost": {
+      "totalBase": 6800,
+      "perServing": 850,
+      "tier": "economico",
+      "tierLabel": "Económico",
+      "note": "Leche entera, huevos de campo y azúcar acaramelada"
+    },
+    "image": "assets/recipes/leche-asada.jpg",
+    "history": "Heredera de la tradición colonial y de convento, la leche asada se distingue del flan europeo porque no se cocina a baño maría, sino a fuego directo dentro del horno. Esto genera su inconfundible costra superficial moteada y tostada que contrasta con la textura suave y esponjosa de la crema con caramelo.",
+    "grandmasSecret": "No batas los huevos en exceso para que la mezcla no se llene de aire. Hornea en una fuente de vidrio refractario o greda directamente sobre la rejilla media del horno hasta que la superficie muestre manchitas café oscuro bien doradas.",
+    "winePairing": "Vino Late Harvest chileno bien helado o infusión de cedrón con cascarita de naranja.",
+    "tags": [
+      "Leche Asada",
+      "Caramelo",
+      "Huevos",
+      "Postre",
+      "Tradicional",
+      "Económico"
+    ],
+    "ingredients": [
+      {
+        "name": "Leche entera fresca",
+        "quantity": 1,
+        "unit": "litro"
+      },
+      {
+        "name": "Huevos de campo grandes",
+        "quantity": 6,
+        "unit": "unidades"
+      },
+      {
+        "name": "Azúcar granulada para la mezcla",
+        "quantity": 150,
+        "unit": "g (3/4 taza)"
+      },
+      {
+        "name": "Azúcar granulada para el caramelo de la fuente",
+        "quantity": 150,
+        "unit": "g (3/4 taza)"
+      },
+      {
+        "name": "Rama de canela entera",
+        "quantity": 1,
+        "unit": "unidad"
+      },
+      {
+        "name": "Ralladura de cáscara de naranja o limón",
+        "quantity": 1,
+        "unit": "tira fina"
+      },
+      {
+        "name": "Esencia de vainilla natural",
+        "quantity": 1,
+        "unit": "cucharadita"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Aromatización de la Leche",
+        "timeMinutes": 10,
+        "technique": "Infusión láctea a 85°C",
+        "text": "En una ollita calienta la leche con la canela y la cascarita de naranja hasta que comience a humear sin hervir. Apaga el fuego, tapa y deja infusionar 10 minutos. Luego retira la canela y la cáscara y deja entibiar.",
+        "tip": "Infusionar la leche le aporta ese aroma casero inconfundible a vainilla y canela."
+      },
+      {
+        "step": 2,
+        "title": "Preparación del Caramelo Rubio",
+        "timeMinutes": 8,
+        "technique": "Caramelizado en seco",
+        "text": "En una sartén pequeña a fuego medio, derrite los 150 g de azúcar sin revolver hasta obtener un caramelo rubio dorado. Vierte de inmediato en el fondo y paredes de una fuente refractaria rectangular de 20x30 cm.",
+        "tip": "Ten cuidado con el caramelo caliente; gira la fuente con paños de cocina para cubrir el fondo."
+      },
+      {
+        "step": 3,
+        "title": "Mezcla de Huevos y Leche Infusionada",
+        "timeMinutes": 5,
+        "technique": "Mezclado suave sin espumar",
+        "text": "En un bowl bate suavemente los 6 huevos con el azúcar y la vainilla solo hasta integrar (sin espumar). Vierte la leche tibia poco a poco revolviendo con batidor de mano. Pasa la mezcla por un colador fino sobre la fuente acaramelada.",
+        "tip": "Colar la mezcla asegura una textura sedosa sin grumos de clara."
+      },
+      {
+        "step": 4,
+        "title": "Horneado Directo para Costra Tostada",
+        "timeMinutes": 50,
+        "technique": "Horneado directo a 180°C",
+        "text": "Lleva al horno precalentado a 180°C durante 45 a 50 minutos directamente en la rejilla (sin baño maría). Estará lista cuando al mover la fuente se sienta firme y la superficie esté cubierta de manchitas doradas tostadas.",
+        "tip": "Las manchitas café tostadas en la superficie son el sello de autenticidad de la leche asada chilena."
+      },
+      {
+        "step": 5,
+        "title": "Enfriado y Porcionado",
+        "timeMinutes": 10,
+        "technique": "Atemperado y refrigeración",
+        "text": "Deja enfriar a temperatura ambiente y luego refrigera al menos 2 horas. Corta en cuadrados generosos y sirve con una cucharada del caramelo líquido del fondo.",
+        "tip": "Al día siguiente el caramelo disuelto baña cada trozo con máxima dulzura."
+      }
+    ]
+  },
+  {
+    "id": "calzones-rotos",
+    "name": "Calzones Rotos Tradicionales con Azúcar Flor",
+    "tagline": "Las masitas fritas crujientes con toque de naranja y pisco que alegran las tardes frías de lluvia",
+    "category": "postres",
+    "categoryLabel": "Postres y Dulces / Masas",
+    "zone": "centro",
+    "zoneLabel": "Zona Centro / Invierno",
+    "difficulty": "facil",
+    "difficultyLabel": "Fácil",
+    "prepTime": 25,
+    "cookTime": 20,
+    "totalTime": 45,
+    "servingsBase": 8,
+    "estimatedCost": {
+      "totalBase": 3600,
+      "perServing": 450,
+      "tier": "economico",
+      "tierLabel": "Económico",
+      "note": "Harina, huevos, mantequilla y azúcar flor muy rendidores"
+    },
+    "image": "assets/recipes/calzones-rotos.jpg",
+    "history": "Un clásico de convento y de las tardes de lluvia en todo Chile. Su singular nombre cuenta la leyenda popular de una vendedora ambulante de la Plaza de Armas de Santiago que vendía estos dulces y a quien el viento le levantó la falda dejando ver sus calzones zurcidos, bautizando para siempre la receta.",
+    "grandmasSecret": "El chorrito de pisco o aguardiente en la masa no es solo por sabor: el alcohol se evapora rápidamente en el aceite caliente evitando que la masa absorba grasa, logrando calzones rotos sequitos, inflados y crocantes.",
+    "winePairing": "Té caliente con hierbas o una taza de chocolate caliente espeso.",
+    "tags": [
+      "Calzones Rotos",
+      "Masas",
+      "Frituras",
+      "Lluvia",
+      "Once",
+      "Económico"
+    ],
+    "ingredients": [
+      {
+        "name": "Harina sin polvos de hornear",
+        "quantity": 500,
+        "unit": "g (4 tazas)"
+      },
+      {
+        "name": "Polvos de hornear",
+        "quantity": 1.5,
+        "unit": "cucharaditas"
+      },
+      {
+        "name": "Mantequilla derretida o manteca",
+        "quantity": 60,
+        "unit": "g"
+      },
+      {
+        "name": "Azúcar flor o granulada",
+        "quantity": 100,
+        "unit": "g (media taza)"
+      },
+      {
+        "name": "Huevos enteros",
+        "quantity": 2,
+        "unit": "unidades"
+      },
+      {
+        "name": "Yemas de huevo",
+        "quantity": 2,
+        "unit": "unidades"
+      },
+      {
+        "name": "Ralladura fina de naranja o limón",
+        "quantity": 1,
+        "unit": "cucharada"
+      },
+      {
+        "name": "Pisco chileno o aguardiente",
+        "quantity": 2,
+        "unit": "cucharadas"
+      },
+      {
+        "name": "Agua tibia o leche (si hace falta unir)",
+        "quantity": 0.25,
+        "unit": "taza"
+      },
+      {
+        "name": "Aceite para freír",
+        "quantity": 1,
+        "unit": "litro"
+      },
+      {
+        "name": "Azúcar flor con toque de canela para espolvorear",
+        "quantity": 1,
+        "unit": "taza"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Amasado Suave de la Masa",
+        "timeMinutes": 12,
+        "technique": "Unión y sobado ligero",
+        "text": "En un bowl mezcla la harina con los polvos de hornear y el azúcar. Haz un hueco al centro y agrega los huevos, yemas, mantequilla derretida, pisco y la ralladura de naranja. Amasa con las manos durante 5 minutos hasta formar una masa suave, homogénea y que no se pegue. Deja reposar tapada 10 minutos.",
+        "tip": "La masa debe quedar suave y elástica como el lóbulo de la oreja."
+      },
+      {
+        "step": 2,
+        "title": "Estirado y Corte en Rectángulos",
+        "timeMinutes": 10,
+        "technique": "Estirado con uslero y corte geométrico",
+        "text": "Enharina el mesón y estira la masa con uslero hasta dejarla de 3 mm de espesor. Con un cortador o cuchillo corta tiras de 10 cm de largo por 4 cm de ancho. Haz un corte longitudinal de 3 cm al centro de cada rectángulo.",
+        "tip": "El grosor de 3 mm permite que inflen con huecos de aire crujientes por dentro."
+      },
+      {
+        "step": 3,
+        "title": "Formado del Lazo Tradicional",
+        "timeMinutes": 5,
+        "technique": "Trenzado característico",
+        "text": "Toma un extremo de cada tira de masa, pásalo por la ranura central hacia el otro lado y tira suavemente para formar el clásico lazo torcido de calzón roto.",
+        "tip": "Este doblez crea los bordes crujientes que retienen el azúcar flor."
+      },
+      {
+        "step": 4,
+        "title": "Fritura Rápida y Dorada",
+        "timeMinutes": 12,
+        "technique": "Fritura a 175°C",
+        "text": "Calienta abundante aceite en una paila a 175°C. Fríe los calzones rotos en tandas de 4 a 5 unidades durante 1 minuto por lado hasta que inflen y doren ligeramente. Retira con espumadera y escurre sobre papel absorbente.",
+        "tip": "No dejes que se doren demasiado para que conserven su miga suave por dentro."
+      },
+      {
+        "step": 5,
+        "title": "Nevada de Azúcar Flor",
+        "timeMinutes": 3,
+        "technique": "Espolvoreado con colador",
+        "text": "Aún tibios, colócalos en una fuente y espolvoréalos abundantemente con azúcar flor cernida con un colador fino.",
+        "tip": "¡Sírvelos recién hechos con un buen té de hoja humeante!"
+      }
+    ]
+  },
+  {
+    "id": "paila-marina",
+    "name": "Paila Marina Tradicional Levantamuertos",
+    "tagline": "El caldo marino concentrado más vigoroso de las caletas chilenas con mariscos surtidos y vino blanco",
+    "category": "sopas",
+    "categoryLabel": "Sopas y Guisos",
+    "zone": "centro",
+    "zoneLabel": "Zona Centro (Valparaíso y Caletas)",
+    "difficulty": "media",
+    "difficultyLabel": "Media",
+    "prepTime": 20,
+    "cookTime": 30,
+    "totalTime": 50,
+    "servingsBase": 4,
+    "estimatedCost": {
+      "totalBase": 15600,
+      "perServing": 3900,
+      "tier": "medio",
+      "tierLabel": "Medio",
+      "note": "Surtido generoso de mariscos frescos en sus conchas con fumet aromático"
+    },
+    "image": "assets/recipes/paila-marina.jpg",
+    "history": "Famosa en el Mercado Central de Santiago y en las caletas de Valparaíso y San Antonio, la paila marina servida en greda hirviendo es la soberana de los domingos por la mañana. Reconocida como el reconstituyente y 'levantamuertos' definitivo del Pacífico sur por su inmensa riqueza mineral.",
+    "grandmasSecret": "El secreto de una paila marina de caleta es preparar primero un caldo base bien concentrado con cabezas y espinas de pescado blanco, laurel y vino blanco. Agrega los mariscos en concha al final tapando la paila para que se abran al vapor en solo 6 minutos.",
+    "winePairing": "Chardonnay mineral de la costa o vino blanco Sauvignon Blanc frío.",
+    "tags": [
+      "Paila Marina",
+      "Mariscos",
+      "Sopa",
+      "Caleta",
+      "Costa",
+      "Pomaire"
+    ],
+    "ingredients": [
+      {
+        "name": "Choritos limpios en concha",
+        "quantity": 500,
+        "unit": "g"
+      },
+      {
+        "name": "Almejas frescas limpias en concha",
+        "quantity": 500,
+        "unit": "g"
+      },
+      {
+        "name": "Colitas de camarón peladas",
+        "quantity": 200,
+        "unit": "g"
+      },
+      {
+        "name": "Filete de pescado blanco firme (congrio o corvina) en trozos",
+        "quantity": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Machas limpias",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Cebolla picada fina y dientes de ajo picados",
+        "quantity": 1,
+        "unit": "cebolla y 2 ajos"
+      },
+      {
+        "name": "Vino blanco seco",
+        "quantity": 1,
+        "unit": "taza"
+      },
+      {
+        "name": "Caldo concentrado de pescado o mariscos",
+        "quantity": 1,
+        "unit": "litro"
+      },
+      {
+        "name": "Ají de color, orégano y comino",
+        "quantity": 1,
+        "unit": "cucharadita de c/u"
+      },
+      {
+        "name": "Cilantro fresco picado y gajos de limón",
+        "quantity": 1,
+        "unit": "al gusto"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Base de Sofrito Marino",
+        "timeMinutes": 10,
+        "technique": "Sofrito en paila o cazuela",
+        "text": "En una olla grande o paila de greda calienta 2 cucharadas de aceite y sofríe la cebolla picada y el ajo con ají de color y orégano durante 6 minutos hasta dorar.",
+        "tip": "Usa paila de greda de Pomaire si tienes para mantener el calor por 20 minutos en la mesa."
+      },
+      {
+        "step": 2,
+        "title": "Desglasado con Vino Blanco y Fumet",
+        "timeMinutes": 10,
+        "technique": "Desglasado y ebullición",
+        "text": "Vierte la taza de vino blanco y deja evaporar el alcohol por 2 minutos a fuego vivo. Añade el caldo de pescado caliente y lleva a ebullición.",
+        "tip": "El vino blanco aporta la acidez que equilibra el yodo de los mariscos."
+      },
+      {
+        "step": 3,
+        "title": "Cocción del Pescado y Mariscos en Concha",
+        "timeMinutes": 8,
+        "technique": "Cocción al vapor bajo tapa",
+        "text": "Incorpora los trozos de pescado y luego los choritos y almejas. Tapa la olla y cocina a fuego fuerte durante 6 a 8 minutos hasta que todas las conchas se abran por completo. Descarta cualquier concha que permanezca cerrada.",
+        "tip": "Los mariscos se cocinan muy rápido; no los sobrecocines."
+      },
+      {
+        "step": 4,
+        "title": "Toque Final con Camarones y Cilantro",
+        "timeMinutes": 4,
+        "technique": "Acabado aromático",
+        "text": "Agrega los camarones y machas en los últimos 2 minutos de cocción. Apaga el fuego, rectifica de sal y pimienta y espolvorea con abundante cilantro fresco picado.",
+        "tip": "Sirve hirviendo con gajos de limón para exprimir directamente en el caldo."
+      }
+    ]
+  },
+  {
+    "id": "pescado-frito",
+    "name": "Pescado Frito Crujiente con Ensalada Chilena",
+    "tagline": "El clásico de los almuerzos de caleta: merluza austral en batido crujiente con tomates y cebolla pluma",
+    "category": "fondos",
+    "categoryLabel": "Platos de Fondo",
+    "zone": "centro",
+    "zoneLabel": "Zona Centro (Caletas del Litoral)",
+    "difficulty": "facil",
+    "difficultyLabel": "Fácil",
+    "prepTime": 20,
+    "cookTime": 20,
+    "totalTime": 40,
+    "servingsBase": 4,
+    "estimatedCost": {
+      "totalBase": 12800,
+      "perServing": 3200,
+      "tier": "medio",
+      "tierLabel": "Medio",
+      "note": "Filetes frescos de merluza austral o reineta con batido tradicional"
+    },
+    "image": "assets/recipes/pescado-frito.jpg",
+    "history": "Plato insignia de cada caleta de pescadores desde Arica hasta Chiloé. El filete fresco de merluza común, reineta o corvina se baña en un batido ligero preparado con harina, huevo y cerveza o agua con gas para lograr una coraza dorada crocante que retiene la carne del pescado jugosa y tierna.",
+    "grandmasSecret": "Usa cerveza rubia bien helada o agua mineral con gas para preparar el batido justo antes de freír, y pasa los filetes secos primero por una capa delgada de harina antes de sumergirlos en el batido: esto hace que la masa se adhiera firmemente sin desprenderse al freír.",
+    "winePairing": "Sauvignon Blanc chileno bien frío o una cerveza lager helada.",
+    "tags": [
+      "Pescado Frito",
+      "Merluza",
+      "Caleta",
+      "Chilena",
+      "Crocante"
+    ],
+    "ingredients": [
+      {
+        "name": "Filetes de merluza austral o reineta frescos sin espinas",
+        "quantity": 800,
+        "unit": "g (4 filetes)"
+      },
+      {
+        "name": "Harina sin polvos de hornear",
+        "quantity": 200,
+        "unit": "g (1.5 tazas)"
+      },
+      {
+        "name": "Huevos enteros",
+        "quantity": 2,
+        "unit": "unidades"
+      },
+      {
+        "name": "Cerveza rubia helada o agua mineral con gas bien fría",
+        "quantity": 180,
+        "unit": "ml"
+      },
+      {
+        "name": "Dientes de ajo machacados y orégano seco",
+        "quantity": 1,
+        "unit": "cucharadita de c/u"
+      },
+      {
+        "name": "Aceite abundante para freír",
+        "quantity": 1,
+        "unit": "litro"
+      },
+      {
+        "name": "Tomates maduros y cebolla en pluma para la ensalada a la chilena",
+        "quantity": 1,
+        "unit": "al gusto"
+      },
+      {
+        "name": "Sal, pimienta y limón para servir",
+        "quantity": 1,
+        "unit": "al gusto"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Aliño y Secado de los Filetes",
+        "timeMinutes": 8,
+        "technique": "Mise en place de pescado",
+        "text": "Seca muy bien los filetes con toalla de papel absorbente. Salpimienta y frota con el ajo machacado y una pizca de orégano. Deja reposar 5 minutos.",
+        "tip": "La humedad exterior en el pescado arruina la costra crujiente; sécalo a conciencia."
+      },
+      {
+        "step": 2,
+        "title": "Elaboración del Batido Crujiente",
+        "timeMinutes": 5,
+        "technique": "Emulsión de rebozado frío",
+        "text": "En un bowl bate los huevos con la cerveza o agua con gas bien helada. Añade 1 taza de harina cernida con sal y pimienta. Bate con tenedor hasta obtener una crema ligera similar a masa de panqueques.",
+        "tip": "El contraste entre el batido muy frío y el aceite muy caliente es el secreto del 'crunch' perfecto."
+      },
+      {
+        "step": 3,
+        "title": "Enharinado y Rebozado",
+        "timeMinutes": 4,
+        "technique": "Doble cobertura",
+        "text": "Pasa cada filete seco por un plato con harina suelta sacudiendo el exceso, y luego sumérgelo por completo en el batido líquido cubriendo ambas caras.",
+        "tip": "La harina previa funciona como pegamento natural del batido."
+      },
+      {
+        "step": 4,
+        "title": "Fritura Dorada y Crujiente",
+        "timeMinutes": 10,
+        "technique": "Fritura por inmersión a 180°C",
+        "text": "Desliza con cuidado los filetes en abundante aceite caliente a 180°C. Fríe durante 3 a 4 minutos por lado hasta que estén inflados y de un color dorado intenso. Escurre de pie sobre papel absorbente.",
+        "tip": "No amontones los pescados en el sartén para que la temperatura del aceite no caiga."
+      },
+      {
+        "step": 5,
+        "title": "Servicio con Ensalada a la Chilena",
+        "timeMinutes": 3,
+        "technique": "Montaje tradicional",
+        "text": "Sirve de inmediato acompañado de ensalada a la chilena de tomates frescos y cebolla pluma amortiguada, con rodajas de limón para rociar justo antes del primer bocado.",
+        "tip": "Acompaña opcionalmente con papas mayo campesinas."
+      }
+    ]
+  },
+  {
+    "id": "costillar-de-cerdo",
+    "name": "Costillar de Cerdo al Horno con Ají Chileno",
+    "tagline": "El gran asado criollo de fondas y campo: costillar dorado al horno macerado con pasta de ají y ajo",
+    "category": "fondos",
+    "categoryLabel": "Platos de Fondo",
+    "zone": "centro",
+    "zoneLabel": "Zona Centro / Sur (Campo Chileno)",
+    "difficulty": "media",
+    "difficultyLabel": "Media",
+    "prepTime": 20,
+    "cookTime": 80,
+    "totalTime": 100,
+    "servingsBase": 6,
+    "estimatedCost": {
+      "totalBase": 21000,
+      "perServing": 3500,
+      "tier": "medio",
+      "tierLabel": "Medio",
+      "note": "Costillar carnoso de cerdo con adobo tradicional chileno"
+    },
+    "image": "assets/recipes/costillar-de-cerdo.jpg",
+    "history": "Emblema de las fiestas patrias, las ramadas y los almuerzos campestres de la zona central y sur de Chile. El costillar de cerdo se macera tradicionalmente en una pasta colorada de ají chileno, vinagre de vino tinto, ajo y orégano que perfuma la carne y genera una costra caramelizada y crocante.",
+    "grandmasSecret": "Unta el costillar con el adobo la noche anterior y hornéalo primero tapado con papel aluminio durante 50 minutos para que quede blando como mantequilla, y destápalo los últimos 25 minutos a fuego fuerte para dorar la costra crujiente.",
+    "winePairing": "Carménère del Valle de Colchagua o vino tinto Pipeño.",
+    "tags": [
+      "Costillar",
+      "Cerdo",
+      "Ají",
+      "Horno",
+      "Asado",
+      "Fonda"
+    ],
+    "ingredients": [
+      {
+        "name": "Costillar de cerdo carnoso entero",
+        "quantity": 1.8,
+        "unit": "kg"
+      },
+      {
+        "name": "Pasta de ají rojo chileno suave (o ají colorado)",
+        "quantity": 4,
+        "unit": "cucharadas"
+      },
+      {
+        "name": "Dientes de ajo machacados en mortero",
+        "quantity": 6,
+        "unit": "dientes"
+      },
+      {
+        "name": "Vinagre de vino tinto criollo",
+        "quantity": 0.5,
+        "unit": "taza"
+      },
+      {
+        "name": "Orégano entero seco y comino molido",
+        "quantity": 1,
+        "unit": "cucharada de c/u"
+      },
+      {
+        "name": "Aceite de maravilla",
+        "quantity": 3,
+        "unit": "cucharadas"
+      },
+      {
+        "name": "Sal gruesa de mar",
+        "quantity": 1.5,
+        "unit": "cucharadas"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Preparación del Adobo Criollo",
+        "timeMinutes": 10,
+        "technique": "Macerado criollo",
+        "text": "En un bowl mezcla la pasta de ají chileno con el ajo machacado, vinagre de vino tinto, orégano, comino, sal de mar y aceite hasta lograr una pasta homogénea y fragante.",
+        "tip": "El vinagre ablanda las fibras de la carne y resalta el picor dulce del ají."
+      },
+      {
+        "step": 2,
+        "title": "Masaje y Marinado del Costillar",
+        "timeMinutes": 10,
+        "technique": "Adobado por contacto",
+        "text": "Embadurna el costillar de cerdo por ambos lados frotando con las manos para que el adobo penetre en los pliegues de la carne. Deja reposar al menos 1 hora (idealmente toda la noche en frío).",
+        "tip": "Si tienes tiempo, marina durante la noche para una carne infinitamente más sabrosa."
+      },
+      {
+        "step": 3,
+        "title": "Horneado Tapado (Cocción Lenta)",
+        "timeMinutes": 50,
+        "technique": "Confitado al horno a 170°C",
+        "text": "Precalienta el horno a 170°C. Coloca el costillar en una asadera con los huesos hacia abajo y baña con el resto del adobo. Cubre bien con papel aluminio y hornea durante 50 minutos.",
+        "tip": "El papel aluminio retiene el vapor y hace que la carne quede sumamente jugosa."
+      },
+      {
+        "step": 4,
+        "title": "Destapado y Gratinado Crocante",
+        "timeMinutes": 25,
+        "technique": "Dorado a fuego fuerte a 210°C",
+        "text": "Retira el papel aluminio, sube la temperatura a 210°C y hornea 20 a 25 minutos más pincelando la superficie con sus propios jugos hasta que esté bien dorado, brillante y crocante.",
+        "tip": "Pincelar con los jugos de la asadera crea ese barniz brillante tan apetitoso."
+      },
+      {
+        "step": 5,
+        "title": "Corte y Servicio Tradicional",
+        "timeMinutes": 5,
+        "technique": "Porcionado entre costillas",
+        "text": "Deja reposar 5 minutos sobre la tabla antes de cortar. Separa las costillas con un cuchillo afilado y sirve acompañado de papas doradas al horno o pastelera de choclo.",
+        "tip": "La carne debe desprenderse sola del hueso."
+      }
+    ]
+  },
+  {
+    "id": "picarones-con-chancaca",
+    "name": "Picarones Tradicionales Pasados por Chancaca",
+    "tagline": "Anillos dorados y esponjosos de zapallo camote fritos bañados en melaza tibia de chancaca aromatizada",
+    "category": "postres",
+    "categoryLabel": "Postres y Dulces",
+    "zone": "centro",
+    "zoneLabel": "Zona Centro (Fondas y Plazas)",
+    "difficulty": "media",
+    "difficultyLabel": "Media",
+    "prepTime": 40,
+    "cookTime": 25,
+    "totalTime": 65,
+    "servingsBase": 6,
+    "estimatedCost": {
+      "totalBase": 4800,
+      "perServing": 800,
+      "tier": "economico",
+      "tierLabel": "Económico",
+      "note": "Masa leudada de zapallo camote y chancaca de caña tradicional"
+    },
+    "image": "assets/recipes/picarones-con-chancaca.jpg",
+    "history": "Herederos del mestizaje andino-virreinal, los picarones chilenos son el bocado dulce insigne de las noches de frío y las celebraciones patrias. Su masa elástica a base de puré de zapallo camote y levadura se fríe formando roscas con las manos mojadas en agua con sal.",
+    "grandmasSecret": "Moja las yemas de tus dedos en un pocillo con agua salada antes de tomar cada porción de masa: esto evita que la masa pegajosa se adhiera a tus dedos y permite abrir el agujero central en el aire justo antes de deslizarlo al aceite caliente.",
+    "winePairing": "Café de grano recién pasado o una copa de mistela tradicional.",
+    "tags": [
+      "Picarones",
+      "Chancaca",
+      "Zapallo",
+      "Frituras",
+      "Postre",
+      "Familiar"
+    ],
+    "ingredients": [
+      {
+        "name": "Zapallo camote cocido y hecho puré fino",
+        "quantity": 300,
+        "unit": "g"
+      },
+      {
+        "name": "Harina sin polvos de hornear",
+        "quantity": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Levadura seca instantánea",
+        "quantity": 7,
+        "unit": "g (1 sobre)"
+      },
+      {
+        "name": "Azúcar granulada",
+        "quantity": 2,
+        "unit": "cucharadas"
+      },
+      {
+        "name": "Agua de cocción del zapallo tibia",
+        "quantity": 150,
+        "unit": "ml"
+      },
+      {
+        "name": "Aceite abundante para freír",
+        "quantity": 1,
+        "unit": "litro"
+      },
+      {
+        "name": "Pan de chancaca tradicional",
+        "quantity": 400,
+        "unit": "g"
+      },
+      {
+        "name": "Ramas de canela y clavos de olor",
+        "quantity": 2,
+        "unit": "canelas y 3 clavos"
+      },
+      {
+        "name": "Cáscara de naranja entera y maicena",
+        "quantity": 1,
+        "unit": "cáscara y 1 cda de maicena"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Fermentación de la Masa de Zapallo",
+        "timeMinutes": 30,
+        "technique": "Leudado tibio",
+        "text": "En un bowl disuelve la levadura con el azúcar en media taza de agua tibia de zapallo. Añade el puré de zapallo camote tibio y la harina. Bate enérgicamente con la mano golpeando la masa contra el bowl hasta que quede elástica y chiclosa. Tapa y deja leudar en lugar tibio por 30 a 40 minutos hasta doblar volumen.",
+        "tip": "El batido enérgico con la mano desarrolla la elasticidad necesaria para formar las roscas."
+      },
+      {
+        "step": 2,
+        "title": "Elaboración de la Salsa de Chancaca",
+        "timeMinutes": 15,
+        "technique": "Reducción de melaza aromática",
+        "text": "En una olla disuelve el pan de chancaca cortado en trozos en 3 tazas de agua con la canela, clavos de olor y cáscara de naranja. Deja hervir a fuego medio 15 minutos hasta que esté bien disuelta y aromática. Si deseas espesar, disuelve 1 cucharadita de maicena en agua fría y añade revolviendo.",
+        "tip": "Cuela la salsa para retirar la canela y clavos antes de servir."
+      },
+      {
+        "step": 3,
+        "title": "Formado y Fritura de las Roscas",
+        "timeMinutes": 15,
+        "technique": "Fritura de masa leudada a 180°C",
+        "text": "Calienta abundante aceite en una paila ancha. Moja tus dedos en agua salada, toma una porción de masa, haz un agujero central con los pulgares haciéndolo girar en el aire y déjalo caer suavemente en el aceite caliente. Fríe 1 minuto por lado hasta que inflen y doren. Escurre sobre papel.",
+        "tip": "Usa un palito de brocheta para girar el picaron por el agujero central."
+      },
+      {
+        "step": 4,
+        "title": "Baño en Salsa Tibia y Servicio",
+        "timeMinutes": 5,
+        "technique": "Embebecido tradicional",
+        "text": "Pasa los picarones recién fritos por la olla de salsa de chancaca caliente durante 1 minuto o sírvelos en un plato hondo y baña con abundante salsa encima.",
+        "tip": "¡Sírvelos inmediatamente mientras la masa absorbe el almíbar caliente!"
+      }
+    ]
+  },
+  {
+    "id": "terremoto-chileno",
+    "name": "Terremoto Tradicional de Fiestas Patrias",
+    "tagline": "El legendario trago dieciochero de tabernas: vino pipeño blanco, helado de piña y toque de granadina",
+    "category": "bebidas",
+    "categoryLabel": "Bebidas Típicas",
+    "zone": "centro",
+    "zoneLabel": "Zona Centro (Tabernas Populares)",
+    "difficulty": "facil",
+    "difficultyLabel": "Fácil",
+    "prepTime": 5,
+    "cookTime": 0,
+    "totalTime": 5,
+    "servingsBase": 4,
+    "estimatedCost": {
+      "totalBase": 4400,
+      "perServing": 1100,
+      "tier": "economico",
+      "tierLabel": "Económico",
+      "note": "Vino pipeño blanco campesino con helado de piña de agua"
+    },
+    "image": "assets/recipes/terremoto-chileno.jpg",
+    "history": "Nacido en la legendaria cantina El Hoyo de Estación Central tras el gran terremoto de Santiago de 1985 (y popularizado en La Piojera), este cóctel popular es el emblema indiscutido de las celebraciones del 18 de septiembre. Su dulzura refrescante engaña la graduación alcohólica del pipeño campesino.",
+    "grandmasSecret": "Usa helado de piña al agua (no de crema) para que flote y se mezcle lentamente con el pipeño sin cortarse, y agrega un chorrito de fernet amargo si prefieres la versión tradicional menos empalagosa.",
+    "winePairing": "Acompañar con empanadas de pino al horno o anticuchos parrilleros.",
+    "tags": [
+      "Terremoto",
+      "Pipeño",
+      "Trago",
+      "Fiestas Patrias",
+      "18 de Septiembre"
+    ],
+    "ingredients": [
+      {
+        "name": "Vino pipeño blanco chileno muy frío",
+        "quantity": 1,
+        "unit": "litro"
+      },
+      {
+        "name": "Helado de piña de agua de buena calidad",
+        "quantity": 500,
+        "unit": "g (medio litro)"
+      },
+      {
+        "name": "Granadina dulce tradicional (o Fernet amargo)",
+        "quantity": 4,
+        "unit": "cucharadas"
+      },
+      {
+        "name": "Vasos de vidrio grandes o cañas típicas de 400 ml",
+        "quantity": 4,
+        "unit": "vasos"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Acondicionamiento de los Vasos",
+        "timeMinutes": 2,
+        "technique": "Mise en place de bar",
+        "text": "En vasos grandes o cañas de medio litro coloca primero en el fondo 2 a 3 bolas generosas de helado de piña bien firme.",
+        "tip": "El helado en el fondo mantiene la bebida fría hasta el último sorbo."
+      },
+      {
+        "step": 2,
+        "title": "Llenado con Pipeño Helado",
+        "timeMinutes": 2,
+        "technique": "Servido en cascada",
+        "text": "Vierte el vino pipeño blanco muy frío con suavidad por los bordes del vaso dejando dos dedos libres en la parte superior.",
+        "tip": "El pipeño blanco artesanal campesino aporta el dulzor y graduación ideal."
+      },
+      {
+        "step": 3,
+        "title": "El Toque de Granadina o Fernet",
+        "timeMinutes": 1,
+        "technique": "Densidad y degradado visual",
+        "text": "Deja caer por el centro una cucharada de jarabe de granadina roja (que bajará al fondo por densidad) o un chorrito de fernet si prefieres un trago más seco. Sirve con bombilla gruesa para ir mezclando al gusto.",
+        "tip": "¡Cuidado con la rapidez al tomarlo: hace honor a su nombre!"
+      }
+    ]
+  },
+  {
+    "id": "cola-de-mono",
+    "name": "Cola de Mono Navideña Casera",
+    "tagline": "El cóctel navideño por excelencia: leche aromatizada con canela, clavo de olor, café y aguardiente",
+    "category": "bebidas",
+    "categoryLabel": "Bebidas Típicas",
+    "zone": "centro",
+    "zoneLabel": "Zona Centro / Tradición Nacional",
+    "difficulty": "facil",
+    "difficultyLabel": "Fácil",
+    "prepTime": 15,
+    "cookTime": 10,
+    "totalTime": 25,
+    "servingsBase": 8,
+    "estimatedCost": {
+      "totalBase": 6000,
+      "perServing": 750,
+      "tier": "economico",
+      "tierLabel": "Económico",
+      "note": "Leche, café de grano, especias y aguardiente chileno"
+    },
+    "image": "assets/recipes/cola-de-mono.jpg",
+    "history": "Bebida emblemática de las navidades y fiestas de fin de año en Chile. Su origen popular remite a los tiempos del presidente Pedro Montt (apodado 'el mono'), a quien en una velada le prepararon un trago mezclando las botellas de aguardiente de la licorera con leche y café frío, convirtiéndose en el brindis oficial junto al Pan de Pascua.",
+    "grandmasSecret": "Disuelve bien el café en la leche muy caliente con las especias y deja enfriar por completo antes de añadir el aguardiente: agregar el licor a la leche caliente puede evaporar el aroma y cortar la textura láctea.",
+    "winePairing": "Pan de pascua casero con nueces y frutas confitadas.",
+    "tags": [
+      "Cola de Mono",
+      "Navidad",
+      "Café",
+      "Aguardiente",
+      "Tradición",
+      "Brindis"
+    ],
+    "ingredients": [
+      {
+        "name": "Leche entera fresca",
+        "quantity": 1.5,
+        "unit": "litros"
+      },
+      {
+        "name": "Aguardiente de uva chileno o pisco de 35°",
+        "quantity": 250,
+        "unit": "ml (1 taza)"
+      },
+      {
+        "name": "Café instantáneo o café pasado concentrado",
+        "quantity": 3,
+        "unit": "cucharadas soperas"
+      },
+      {
+        "name": "Azúcar granulada o leche condensada al gusto",
+        "quantity": 150,
+        "unit": "g"
+      },
+      {
+        "name": "Ramas de canela entera",
+        "quantity": 2,
+        "unit": "unidades"
+      },
+      {
+        "name": "Clavos de olor enteros",
+        "quantity": 3,
+        "unit": "unidades"
+      },
+      {
+        "name": "Nuez moscada recién rallada y esencia de vainilla",
+        "quantity": 1,
+        "unit": "pizca y 1 cdta"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Hervor Aromático de la Leche",
+        "timeMinutes": 10,
+        "technique": "Infusión de especias dulces",
+        "text": "En una olla grande coloca la leche con la canela, los clavos de olor, una pizca de nuez moscada y el azúcar. Calienta a fuego medio revolviendo hasta que rompa el primer hervor.",
+        "tip": "Usa fuego suave para que la leche absorba profundamente el aceite esencial de las especias."
+      },
+      {
+        "step": 2,
+        "title": "Disolución del Café y Vainilla",
+        "timeMinutes": 5,
+        "technique": "Coloración y sabor base",
+        "text": "Retira del fuego, agrega el café y la esencia de vainilla revolviendo con cuchara de madera hasta que se disuelva por completo y tome un tono café con leche cremoso.",
+        "tip": "Puedes ajustar la intensidad del café a tu gusto si te gusta más cargado."
+      },
+      {
+        "step": 3,
+        "title": "Enfriado Completo y Adición de Aguardiente",
+        "timeMinutes": 5,
+        "technique": "Integración alcohólica en frío",
+        "text": "Deja que la mezcla se enfríe completamente a temperatura ambiente y luego pásala por un colador fino. Vierte la taza de aguardiente o pisco revolviendo suavemente para incorporar.",
+        "tip": "La mezcla debe estar totalmente fría antes del licor para mantener su textura aterciopelada."
+      },
+      {
+        "step": 4,
+        "title": "Embotellado y Refrigeración",
+        "timeMinutes": 5,
+        "technique": "Reposo en frío",
+        "text": "Vierte la cola de mono en botellas de vidrio limpias, tapa y refrigera al menos 4 horas (idealmente 24 horas antes de servir). Sirve muy helada en copas o vasos cortos con una ramita de canela de adorno.",
+        "tip": "En el refrigerador dura perfectamente hasta dos semanas."
+      }
+    ]
   }
 ];
 

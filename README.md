@@ -67,38 +67,53 @@ Este recetario no es una lista de recetas común y corriente. Fue creado para ce
 
 ---
 
-## 📖 Catálogo de las 28 Recetas Disponibles
+## 📖 Catálogo Exhaustivo de las 43 Recetas Tradicionales
 
-| Zona Geográfica | Receta Tradicional | Tiempo | Presupuesto Aprox. |
-| :--- | :--- | :---: | :---: |
-| **Zona Centro** | **Pie de Limón Tradicional con Merengue** | 55 min | $1.200 / porción |
-| **Zona Centro** | **Lentejas Tradicionales con Arroz y Zapallo** | 65 min | $1.350 / porción |
-| **Zona Centro** | **Pastel de Choclo Criollo** | 100 min | $2.750 / porción |
-| **Zona Centro** | **Pastel de Papas Criollo** | 85 min | $2.300 / porción |
-| **Zona Centro** | **Empanadas de Pino al Horno** | 95 min | $1.500 / porción |
-| **Zona Centro** | **Cazuela de Vacuno Tradicional** | 95 min | $2.500 / porción |
-| **Zona Centro** | **Porotos Granados con Mazamorra** | 80 min | $1.420 / porción |
-| **Zona Centro** | **Charquicán con Huevo Frito** | 60 min | $2.450 / porción |
-| **Zona Centro** | **Mote con Huesillo Tradicional** | 55 min | $1.080 / porción |
-| **Zona Centro** | **Sopaipillas Pasadas con Chancaca** | 60 min | $750 / porción |
-| **Zona Centro** | **Chorrillana Porteña Tradicional** | 55 min | $3.125 / porción |
-| **Zona Centro** | **Caldillo de Congrio Tradicional** | 70 min | $3.500 / porción |
-| **Zona Centro** | **Pan Amasado Criollo al Horno** | 55 min | $350 / porción |
-| **Zona Centro** | **Pantrucas Campestres** | 60 min | $1.400 / porción |
-| **Zona Centro** | **Completo Italiano Tradicional** | 25 min | $1.900 / porción |
-| **Zona Centro** | **Pebre Criollo Tradicional** | 15 min | $450 / porción |
-| **Zona Centro** | **Leche Nevada Tradicional** | 45 min | $920 / porción |
-| **Zona Centro** | **Torta de Mil Hojas con Manjar** | 80 min | $1.200 / porción |
-| **Zona Centro** | **Churros Caseros con Manjar** | 50 min | $800 / porción |
-| **Zona Sur** | **Curanto en Olla (Pulmay Chilote)** | 90 min | $4.000 / porción |
-| **Zona Sur** | **Cancato de Salmón Chilote** | 45 min | $5.500 / porción |
-| **Zona Sur** | **Milcaos Tradicionales de Chiloé** | 70 min | $900 / porción |
-| **Zona Norte** | **Calapurca Ancestral Nortina** | 100 min | $2.670 / porción |
-| **Zona Norte** | **Chumbeque Tradicional Iquiqueño** | 75 min | $600 / porción |
-| **Patagonia** | **Cordero Magallánico al Calafate** | 160 min | $6.000 / porción |
-| **Patagonia** | **Chupe de Centolla Austral** | 50 min | $8.000 / porción |
-| **Rapa Nui** | **Po'e de Plátano Tradicional** | 70 min | $900 / porción |
-| **Rapa Nui** | **Ceviche Rapa Nui con Atún y Coco** | 20 min | $4.750 / porción |
+| Zona Geográfica | Receta Tradicional | Categoría | Tiempo | Presupuesto Aprox. |
+| :--- | :--- | :---: | :---: | :---: |
+| **Zona Centro** | **Porotos con Riendas Tradicionales** | Sopas y Guisos | 85 min | $1.450 / porción |
+| **Zona Centro** | **Tomaticán Criollo con Choclo y Carne** | Platos de Fondo | 55 min | $2.600 / porción |
+| **Zona Centro** | **Carbonada Criolla Tradicional** | Sopas y Guisos | 60 min | $2.200 / porción |
+| **Zona Centro** | **Machas a la Parmesana Tradicionales** | Platos de Fondo | 25 min | $4.500 / porción |
+| **Zona Centro** | **Bistec a lo Pobre Tradicional** | Platos de Fondo | 45 min | $3.800 / porción |
+| **Zona Centro** | **Chacarero Tradicional en Pan Frica** | Platos de Fondo / Sánguches | 30 min | $2.900 / porción |
+| **Zona Centro** | **Barros Luco en Marraqueta Tostada** | Platos de Fondo / Sánguches | 20 min | $2.800 / porción |
+| **Zona Centro** | **Pescado Frito con Ensalada Chilena** | Platos de Fondo | 40 min | $3.200 / porción |
+| **Zona Centro** | **Costillar de Cerdo al Horno con Ají** | Platos de Fondo | 100 min | $3.500 / porción |
+| **Zona Centro** | **Paila Marina Tradicional** | Sopas y Guisos | 50 min | $3.900 / porción |
+| **Zona Centro** | **Lentejas con Arroz y Zapallo Camote** | Sopas y Guisos | 65 min | $1.350 / porción |
+| **Zona Centro** | **Pastel de Choclo Criollo** | Platos de Fondo | 100 min | $2.750 / porción |
+| **Zona Centro** | **Pastel de Papas Criollo** | Platos de Fondo | 85 min | $2.300 / porción |
+| **Zona Centro** | **Empanadas de Pino al Horno** | Masas y Panes | 95 min | $1.500 / porción |
+| **Zona Centro** | **Cazuela de Vacuno Tradicional** | Sopas y Guisos | 95 min | $2.500 / porción |
+| **Zona Centro** | **Porotos Granados con Mazamorra** | Sopas y Guisos | 80 min | $1.420 / porción |
+| **Zona Centro** | **Charquicán con Huevo Frito** | Platos de Fondo | 60 min | $2.450 / porción |
+| **Zona Centro** | **Chorrillana Porteña Tradicional** | Platos de Fondo | 55 min | $3.125 / porción |
+| **Zona Centro** | **Caldillo de Congrio Tradicional** | Sopas y Guisos | 70 min | $3.500 / porción |
+| **Zona Centro** | **Pan Amasado Criollo al Horno** | Masas y Panes | 55 min | $350 / porción |
+| **Zona Centro** | **Pantrucas Campestres** | Sopas y Guisos | 60 min | $1.400 / porción |
+| **Zona Centro** | **Completo Italiano Tradicional** | Platos de Fondo / Sánguches | 25 min | $1.900 / porción |
+| **Zona Centro** | **Pebre Criollo Tradicional** | Salsas y Acompañamiento | 15 min | $450 / porción |
+| **Zona Centro** | **Pie de Limón con Merengue Tostado** | Postres y Dulces | 55 min | $1.200 / porción |
+| **Zona Centro** | **Mote con Huesillo Tradicional** | Bebidas Típicas | 55 min | $1.080 / porción |
+| **Zona Centro** | **Sopaipillas Pasadas con Chancaca** | Postres y Dulces | 60 min | $750 / porción |
+| **Zona Centro** | **Leche Nevada Tradicional** | Postres y Dulces | 45 min | $920 / porción |
+| **Zona Centro** | **Leche Asada Tradicional de la Abuela** | Postres y Dulces | 65 min | $850 / porción |
+| **Zona Centro** | **Calzones Rotos con Azúcar Flor** | Postres y Dulces | 45 min | $450 / porción |
+| **Zona Centro** | **Torta de Mil Hojas con Manjar** | Postres y Dulces | 80 min | $1.200 / porción |
+| **Zona Centro** | **Churros Caseros con Manjar** | Postres y Dulces | 50 min | $800 / porción |
+| **Zona Centro** | **Picarones Pasados por Chancaca** | Postres y Dulces | 65 min | $800 / porción |
+| **Zona Centro** | **Terremoto Tradicional Dieciochero** | Bebidas Típicas | 5 min | $1.100 / porción |
+| **Zona Centro** | **Cola de Mono Navideña Casera** | Bebidas Típicas | 25 min | $750 / porción |
+| **Zona Sur** | **Curanto en Olla (Pulmay Chilote)** | Platos de Fondo | 90 min | $4.000 / porción |
+| **Zona Sur** | **Cancato de Salmón Chilote** | Platos de Fondo | 45 min | $5.500 / porción |
+| **Zona Sur** | **Milcaos Tradicionales de Chiloé** | Masas y Panes | 70 min | $900 / porción |
+| **Zona Norte** | **Calapurca Ancestral Nortina** | Sopas y Guisos | 100 min | $2.670 / porción |
+| **Zona Norte** | **Chumbeque Tradicional Iquiqueño** | Postres y Dulces | 75 min | $600 / porción |
+| **Patagonia** | **Cordero Magallánico al Calafate** | Platos de Fondo | 160 min | $6.000 / porción |
+| **Patagonia** | **Chupe de Centolla Austral** | Platos de Fondo | 50 min | $8.000 / porción |
+| **Rapa Nui** | **Po'e de Plátano Tradicional** | Postres y Dulces | 70 min | $900 / porción |
+| **Rapa Nui** | **Ceviche Rapa Nui con Atún y Coco** | Platos de Fondo | 20 min | $4.750 / porción |
 
 ---
 
