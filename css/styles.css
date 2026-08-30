@@ -2878,16 +2878,19 @@ a {
     max-height: 94vh;
     height: 94vh;
     margin-bottom: 0;
-    display: flex;
-    flex-direction: column;
+    display: block;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior-y: contain;
   }
 
   .modal-hero {
     height: 220px;
-    flex-shrink: 0;
+    position: relative;
   }
 
   .modal-close-btn {
+    position: absolute;
     top: 0.75rem;
     right: 0.75rem;
     width: 38px;
@@ -2922,7 +2925,6 @@ a {
     gap: 0.65rem;
     flex-direction: column;
     align-items: stretch;
-    flex-shrink: 0;
   }
 
   .modal-stats-bar > div:first-child {
@@ -2954,9 +2956,7 @@ a {
   .modal-body-layout {
     padding: 1rem;
     gap: 1.2rem;
-    overflow-y: auto;
-    flex: 1;
-    -webkit-overflow-scrolling: touch;
+    overflow-y: visible;
   }
 
   .recipe-history-box {

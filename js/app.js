@@ -744,6 +744,9 @@
     // Mostrar modal
     DOM.modalBackdrop.classList.remove('hidden');
     DOM.body.style.overflow = 'hidden';
+    const modalCard = document.getElementById('recipeModalCard');
+    if (modalCard) modalCard.scrollTop = 0;
+    DOM.modalBackdrop.scrollTop = 0;
   }
 
   function closeRecipeModal() {
