@@ -94,6 +94,7 @@
 
     // Modo Cocina (Kitchen Mode)
     kitchenModeOverlay: document.getElementById('kitchenModeOverlay'),
+    kitchenStepMain: document.querySelector('.kitchen-step-main'),
     btnCloseKitchenMode: document.getElementById('btnCloseKitchenMode'),
     kitchenRecipeTitle: document.getElementById('kitchenRecipeTitle'),
     kitchenProgressFill: document.getElementById('kitchenProgressFill'),
@@ -894,6 +895,9 @@
     renderKitchenIngredientsDrawer();
     DOM.kitchenModeOverlay.classList.remove('hidden');
     DOM.body.style.overflow = 'hidden';
+    if (DOM.kitchenStepMain) {
+      DOM.kitchenStepMain.scrollTop = 0;
+    }
   }
 
   function closeKitchenMode() {
@@ -906,6 +910,11 @@
     const steps = state.currentRecipe.instructions;
     const current = steps[state.kitchenStepIndex];
     if (!current) return;
+
+    // Resetear siempre el scroll al inicio del paso para que el usuario lea desde el título
+    if (DOM.kitchenStepMain) {
+      DOM.kitchenStepMain.scrollTop = 0;
+    }
 
     // Actualizar textos y badges de etapa
     const metaParts = [`Paso ${current.step} de ${steps.length}`];
