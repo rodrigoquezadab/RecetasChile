@@ -302,9 +302,16 @@
     renderCategoryPills();
   }
 
+  function normalizeText(str) {
+    return String(str || '')
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .toLowerCase();
+  }
+
   // 5. FILTRADO, BÚSQUEDA Y ORDENAMIENTO DE RECETAS
   function getFilteredRecipes() {
-    const q = state.filters.search.trim().toLowerCase();
+    const q = normalizeText(state.filters.search.trim());
 
     return RECETAS_CHILE.filter(recipe => {
       // Filtro de Zona
@@ -332,14 +339,16 @@
           return false;
         }
       }
-      // Búsqueda por texto (nombre, historia, ingredientes o tags)
+      // Búsqueda por texto (nombre, historia, ingredientes, tags o categoría)
       if (q) {
-        const inName = recipe.name.toLowerCase().includes(q);
-        const inTagline = recipe.tagline.toLowerCase().includes(q);
-        const inHistory = recipe.history.toLowerCase().includes(q);
-        const inTags = recipe.tags.some(t => t.toLowerCase().includes(q));
-        const inIngredients = recipe.ingredients.some(ing => ing.name.toLowerCase().includes(q));
-        if (!inName && !inTagline && !inHistory && !inTags && !inIngredients) {
+        const inName = normalizeText(recipe.name).includes(q);
+        const inTagline = normalizeText(recipe.tagline).includes(q);
+        const inHistory = normalizeText(recipe.history).includes(q);
+        const inTags = recipe.tags.some(t => normalizeText(t).includes(q));
+        const inIngredients = recipe.ingredients.some(ing => normalizeText(ing.name).includes(q));
+        const inCategory = normalizeText(recipe.categoryLabel).includes(q) ||
+                           normalizeText(recipe.category).includes(q);
+        if (!inName && !inTagline && !inHistory && !inTags && !inIngredients && !inCategory) {
           return false;
         }
       }
@@ -410,7 +419,7 @@
 
   function renderPredictions(query) {
     if (!DOM.searchPredictionsDropdown || !DOM.searchPredictionsList) return;
-    const q = (query || '').trim().toLowerCase();
+    const q = normalizeText(query.trim());
 
     if (q.length === 0) {
       hidePredictions();
@@ -420,16 +429,16 @@
     // Filtrar y rankear por relevancia
     const matches = RECETAS_CHILE.map(recipe => {
       let score = 0;
-      const nameLower = recipe.name.toLowerCase();
-      if (nameLower === q) score += 120;
-      else if (nameLower.startsWith(q)) score += 80;
-      else if (nameLower.includes(q)) score += 50;
+      const nameNorm = normalizeText(recipe.name);
+      if (nameNorm === q) score += 120;
+      else if (nameNorm.startsWith(q)) score += 80;
+      else if (nameNorm.includes(q)) score += 50;
 
-      if (recipe.tagline.toLowerCase().includes(q)) score += 25;
-      if (recipe.categoryLabel.toLowerCase().includes(q)) score += 30;
-      if (recipe.tags.some(t => t.toLowerCase().includes(q))) score += 25;
-      if (recipe.ingredients.some(ing => ing.name.toLowerCase().includes(q))) score += 20;
-      if (recipe.history.toLowerCase().includes(q)) score += 10;
+      if (normalizeText(recipe.tagline).includes(q)) score += 25;
+      if (normalizeText(recipe.categoryLabel).includes(q)) score += 30;
+      if (recipe.tags.some(t => normalizeText(t).includes(q))) score += 25;
+      if (recipe.ingredients.some(ing => normalizeText(ing.name).includes(q))) score += 20;
+      if (normalizeText(recipe.history).includes(q)) score += 10;
 
       return { recipe, score };
     }).filter(item => item.score > 0)
@@ -449,6 +458,7 @@
           <p class="empty-msg">No encontramos recetas para "<strong>${escapeHtml(query)}</strong>"</p>
           <div class="quick-suggest-pills">
             <span class="suggest-label">Prueba con:</span>
+            <button type="button" class="btn-quick-pill" data-q="Comida China">Comida China</button>
             <button type="button" class="btn-quick-pill" data-q="Pie de Limón">Pie de Limón</button>
             <button type="button" class="btn-quick-pill" data-q="Lentejas">Lentejas</button>
             <button type="button" class="btn-quick-pill" data-q="Pastel">Pastel</button>

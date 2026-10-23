@@ -62,6 +62,15 @@ RecetasChile/
 
 ## 📝 4. Historial de Cambios y Decisiones Técnicas (Changelog)
 
+### [2026-10-22] • Incorporación de Tradición «Comida China Chilena» y Búsqueda por Categoría
+- **Requerimiento**: Integrar recetas emblemáticas de la cocina china-chilena de barrio: Arrollado Primavera, Salsa Tamarindo, Wantán con Carne Frito (Guantán) y Carne Mongoliana.
+- **Implementación**:
+  1. **Base de Datos (`js/data.js`)**: Separación minuciosa de ingredientes (cantidades, unidades, notas) para rellenos, masas caseras y fondos; técnicas paso a paso con tiempos exactos y consejos.
+  2. **Nueva Categoría**: Creación de la categoría `🥢 Comida China` (`id: "china"`) en `CATEGORIAS_PLATILLO` y enlaces directos en `index.html`.
+  3. **Fotografía Gastronómica**: Generación e integración de imágenes de alta fidelidad para cada una de las 4 recetas en `assets/recipes/`.
+  4. **Buscador Predictivo y Normalización**: Implementación de función `normalizeText()` para búsqueda insensible a acentos/tildes (`guantan` vs `guantán`) y coincidencia directa por nombre de categoría en el buscador y dropdown predictivo.
+  5. **Métricas**: Actualización del recetario a un total de 47 recetas tradicionales maestras.
+
 ### [2026-08-30] • Corrección de UX en Modo Cocina (Posicionamiento y Pull-to-Refresh)
 - **Problema**: En teléfonos, al entrar al Modo Cocina o avanzar con «Siguiente Paso», el contenedor mostraba el final del texto o una posición desplazada, forzando al usuario a subir manualmente, lo cual disparaba accidentalmente el refresco de página (*pull-to-refresh*).
 - **Causa**:

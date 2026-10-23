@@ -5432,6 +5432,582 @@ const RECETAS_CHILE = [
         "tip": "En el refrigerador dura perfectamente hasta dos semanas."
       }
     ]
+  },
+  {
+    "id": "arrollado-primavera",
+    "name": "Arrollado Primavera Chileno",
+    "tagline": "Crocante clásico chino-chileno con repollo amortiguado, carne dorada y cinco especias",
+    "category": "china",
+    "categoryLabel": "Comida China",
+    "zone": "centro",
+    "zoneLabel": "Zona Centro (Tradición Urbana Nacional)",
+    "difficulty": "media",
+    "difficultyLabel": "Media",
+    "prepTime": 70,
+    "cookTime": 20,
+    "totalTime": 90,
+    "servingsBase": 6,
+    "estimatedCost": {
+      "totalBase": 7500,
+      "perServing": 1250,
+      "tier": "economico",
+      "tierLabel": "Económico",
+      "note": "Rinde aprox. 12 unidades crujientes (~1.250 CLP por porción de 2 unidades)"
+    },
+    "image": "assets/recipes/arrollado-primavera.jpg",
+    "history": "El arrollado primavera al estilo chileno es uno de los mayores emblemas de la comida china adaptada en Chile desde mediados del siglo XX en barrios populares y fuentes de soda. A diferencia de las versiones orientales con obleas de arroz, la receta china-chilena desarrolló una técnica magistral de masa líquida pincelada en sartén y un relleno sabroso de repollo amortiguado con sal, carne molida sellada con mantequilla y el balance aromático del polvo cinco sabores y ají-no-moto.",
+    "grandmasSecret": "El secreto indispensable es estrujar el repollo con fuerza dentro de un paño de cocina limpio tras enjuagarlo, dejándolo lo más seco posible. Si el repollo retiene humedad, la masa se ablanda por dentro al freír; bien seco, el arrollado queda crocante y seco como de restaurante.",
+    "winePairing": "Cerveza rubia helada artesanal o un vino blanco Sauvignon Blanc fresco del Valle de Casablanca.",
+    "tags": [
+      "Comida China",
+      "Chino Chileno",
+      "Arrollado Primavera",
+      "Fritura",
+      "Repollo",
+      "Cinco Sabores",
+      "Entrada"
+    ],
+    "ingredients": [
+      {
+        "name": "Repollo blanco o crespo picado en juliana muy fina",
+        "quantity": 500,
+        "unit": "g",
+        "note": "Aprox. medio repollo mediano"
+      },
+      {
+        "name": "Sal fina para amortiguar el repollo y sazonar",
+        "quantity": 2,
+        "unit": "cdas"
+      },
+      {
+        "name": "Carne molida de vacuno (posta o especial)",
+        "quantity": 350,
+        "unit": "g"
+      },
+      {
+        "name": "Mantequilla para dorar la carne",
+        "quantity": 30,
+        "unit": "g"
+      },
+      {
+        "name": "Especia cinco sabores china (polvo cinco especias)",
+        "quantity": 1,
+        "unit": "cdta"
+      },
+      {
+        "name": "Ají-no-moto (glutamato monosódico)",
+        "quantity": 1,
+        "unit": "cdta"
+      },
+      {
+        "name": "Harina de trigo sin polvos de hornear (para la masa)",
+        "quantity": 1,
+        "unit": "taza",
+        "note": "140 g aprox."
+      },
+      {
+        "name": "Agua a temperatura ambiente (para la masa)",
+        "quantity": 1,
+        "unit": "taza",
+        "note": "240 ml"
+      },
+      {
+        "name": "Aceite vegetal (un chorrito para la masa y pincelar la sartén)",
+        "quantity": 2,
+        "unit": "cdas"
+      },
+      {
+        "name": "Agua tibia para sellar los bordes del arrollado",
+        "quantity": 2,
+        "unit": "cdas"
+      },
+      {
+        "name": "Aceite vegetal neutro para freír",
+        "quantity": 500,
+        "unit": "ml"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Amortiguado y Deshidratado del Repollo",
+        "timeMinutes": 60,
+        "technique": "Deshidratación osmótica y reposo",
+        "text": "Pica el repollo en tiras (juliana) finísimas. Colócalo en un bol amplio, espolvorea 2 cucharadas de sal fina y masajea suavemente con las manos. Deja reposar durante 1 hora para que el repollo suelte sus jugos amargos y se ablande. Luego, enjuaga con abundante agua fría para eliminar el exceso de sal y estruja vigorosamente dentro de un paño de cocina limpio hasta que quede completamente seco.",
+        "tip": "Secar al máximo el repollo en un paño es el gran truco para que la masa no absorba humedad y quede crujiente al freír."
+      },
+      {
+        "step": 2,
+        "title": "Cocción de la Carne Molida con Mantequilla",
+        "timeMinutes": 8,
+        "technique": "Salteado a fuego medio-alto (170°C)",
+        "text": "En una sartén derrite los 30 g de mantequilla a fuego medio-alto. Agrega la carne molida de vacuno con una pizca de sal y cocina durante 6 a 8 minutos, separando los grumos con una cuchara de madera hasta que esté dorada, bien cocida y haya evaporado sus jugos. Retira y deja enfriar.",
+        "tip": "La mantequilla le otorga a la carne ese sabor suave y redondeado clásico de los arrollados criollos."
+      },
+      {
+        "step": 3,
+        "title": "Unión del Relleno con Cinco Sabores y Ají-no-moto",
+        "timeMinutes": 5,
+        "technique": "Mezcla y sazón aromática",
+        "text": "En un bol grande une el repollo amortiguado y seco con la carne molida cocinada. Añade la cucharadita de especia cinco sabores china y la cucharadita de ají-no-moto. Mezcla enérgicamente con cuchara para repartir los condimentos de forma homogénea. Deja reposar a temperatura ambiente antes de rellenar.",
+        "tip": "El relleno debe estar frío o tibio al momento de enrollar para no ablandar la masa delgada."
+      },
+      {
+        "step": 4,
+        "title": "Batido de la Masa Fluida sin Grumos",
+        "timeMinutes": 5,
+        "technique": "Emulsión homogénea",
+        "text": "En un tazón mezcla 1 taza de harina con 1 taza de agua y un chorrito de aceite vegetal. Bate con batidor de varillas o tenedor durante un par de minutos hasta lograr una mezcla líquida, sedosa y 100% libre de grumos, de consistencia similar a la masa de crepas finas.",
+        "tip": "Si quedan grumos, cuela la mezcla con un colador fino para lograr láminas suaves e impecables."
+      },
+      {
+        "step": 5,
+        "title": "Cocción de las Láminas de Masa al Sartén",
+        "timeMinutes": 15,
+        "technique": "Pincelado y secado rápido a fuego bajo (120°C)",
+        "text": "Calienta una sartén antiadherente a fuego bajo con un toque sutil de aceite esparcido con papel o brocha. Con una brocha unta la mezcla cubriendo el fondo de la sartén de forma pareja. Deja secar unos 40 segundos: cuando los bordes se sequen y comiencen a despegarse solos, da vuelta la lámina con espátula unos 10 segundos y retira sobre una bandeja con paño.",
+        "tip": "La masa no debe dorarse en la sartén, sólo secarse y cocerse para mantenerse maleable al enrollar."
+      },
+      {
+        "step": 6,
+        "title": "Relleno, Enrollado y Sellado con Agua",
+        "timeMinutes": 10,
+        "technique": "Plegado y sellado cilíndrico",
+        "text": "Extiende una lámina de masa en la mesa. Coloca dos cucharadas colmadas de relleno de repollo y carne en un tercio inferior. Dobla el borde inferior sobre el relleno, pliega ambos laterales hacia el centro como un sobre y enrolla apretado hacia arriba en forma de cilindro. Unta una gotita de agua en el borde final y presiona para sellar con firmeza.",
+        "tip": "Asegura bien los extremos laterales para que el relleno quede hermético y no entre aceite al freír."
+      },
+      {
+        "step": 7,
+        "title": "Fritura Profunda Dorada y Crocante",
+        "timeMinutes": 8,
+        "technique": "Fritura profunda (180°C)",
+        "text": "Calienta abundante aceite en una olla o sartén profunda hasta los 180°C. Fríe los arrollados en tandas de 3 a 4 unidades durante 3 a 4 minutos, volteándolos para que se doren parejos y se formen pequeñas burbujas crujientes. Retira, escurre sobre papel absorbente y sirve de inmediato con salsa tamarindo casera.",
+        "tip": "No sobrecargues la sartén para evitar que baje la temperatura del aceite."
+      }
+    ]
+  },
+  {
+    "id": "salsa-tamarindo",
+    "name": "Salsa Tamarindo Agridulce",
+    "tagline": "El clásico acompañamiento agridulce, brillante y traslúcido para wantanes y arrollados",
+    "category": "china",
+    "categoryLabel": "Comida China",
+    "zone": "centro",
+    "zoneLabel": "Zona Centro (Tradición Urbana Nacional)",
+    "difficulty": "facil",
+    "difficultyLabel": "Fácil",
+    "prepTime": 5,
+    "cookTime": 5,
+    "totalTime": 10,
+    "servingsBase": 6,
+    "estimatedCost": {
+      "totalBase": 1800,
+      "perServing": 300,
+      "tier": "economico",
+      "tierLabel": "Económico",
+      "note": "Rinde un pocillo generoso para untar (~300 CLP por comensal)"
+    },
+    "image": "assets/recipes/salsa-tamarindo.jpg",
+    "history": "Conocida popularmente en todo Chile como 'Salsa Tamarindo', esta preparación agridulce es el sello distintivo indispensable de la comida china nacional. Aunque en su raíz cantonesa original utilizaba tamarindo natural o ciruela, en los restaurantes y picadas de barrio chilenas se consolidó esta ingeniosa receta a base de vinagre blanco, azúcar, un toque de kétchup para darle ese apetitoso color carmesí, un toque de salsa de soya y maicena para lograr su textura cristalina y aterciopelada.",
+    "grandmasSecret": "El secreto maestro es disolver la maicena completamente en agua bien fría antes de incorporarla al fuego, y retirar la salsa apenas hierva y se vuelva traslúcida para que no pierda su brillo sedoso ni su consistencia de néctar.",
+    "winePairing": "Vino blanco Late Harvest o Torontel servido bien frío, o una cerveza rubia refrescante.",
+    "tags": [
+      "Comida China",
+      "Chino Chileno",
+      "Salsa",
+      "Tamarindo",
+      "Agridulce",
+      "Wantán",
+      "Rápida"
+    ],
+    "ingredients": [
+      {
+        "name": "Agua purificada",
+        "quantity": 120,
+        "unit": "ml",
+        "note": "1/2 taza"
+      },
+      {
+        "name": "Vinagre blanco de alcohol",
+        "quantity": 80,
+        "unit": "ml",
+        "note": "1/3 de taza"
+      },
+      {
+        "name": "Azúcar blanca granulada",
+        "quantity": 50,
+        "unit": "g",
+        "note": "1/4 de taza"
+      },
+      {
+        "name": "Kétchup tradicional",
+        "quantity": 1,
+        "unit": "cdta colmada",
+        "note": "Aporta color bermellón y balance ácido"
+      },
+      {
+        "name": "Maicena (almidón de maíz)",
+        "quantity": 1,
+        "unit": "cdta colmada"
+      },
+      {
+        "name": "Agua fría para disolver la maicena",
+        "quantity": 30,
+        "unit": "ml",
+        "note": "2 cdas soperas"
+      },
+      {
+        "name": "Salsa de soya tradicional",
+        "quantity": 1,
+        "unit": "pizca",
+        "note": "Unas gotitas para profundidad umami y color"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Mezcla Base Agridulce en Cacerola",
+        "timeMinutes": 2,
+        "technique": "Disolución en frío",
+        "text": "En una cacerola pequeña vierte la 1/2 taza de agua, el 1/3 de taza de vinagre blanco, el 1/4 de taza de azúcar y la cucharadita colmada de kétchup. Revuelve brevemente con una cuchara para integrar los ingredientes y comenzar a disolver el azúcar.",
+        "tip": "El vinagre blanco es clave para lograr ese retrogusto agridulce limpio y punzante característico."
+      },
+      {
+        "step": 2,
+        "title": "Disolución de la Maicena en Agua Fría",
+        "timeMinutes": 1,
+        "technique": "Suspensión de fécula en frío",
+        "text": "En un pocillo pequeño aparte, disuelve la cucharadita colmada de maicena en 2 cucharadas de agua fría, revolviendo con una cucharita hasta que no quede ningún grumo y la mezcla quede lechosa y homogénea.",
+        "tip": "Nunca eches la maicena en seco al líquido caliente, de lo contrario formará grumos gelatinosos."
+      },
+      {
+        "step": 3,
+        "title": "Cocción al Fuego y Ebullición",
+        "timeMinutes": 3,
+        "technique": "Hervor suave a fuego medio (95°C)",
+        "text": "Pon la cacerola a fuego medio hasta que rompa un hervor suave y veas que el azúcar está completamente disuelta.",
+        "tip": "Vigila que el fuego sea moderado para que no se evapore el vinagre antes de tiempo."
+      },
+      {
+        "step": 4,
+        "title": "Espesado con Maicena y Pizca de Soya",
+        "timeMinutes": 2,
+        "technique": "Ligazón de almidón y abrillantado",
+        "text": "Vierte la maicena disuelta en forma de hilo continuo mientras revuelves constantemente con cuchara de madera o batidor pequeño. Cocina a fuego suave durante 1 a 2 minutos hasta que la salsa espese, se vuelva transparente y tome un brillo lustroso. Agrega la pizca de salsa de soya, mezcla bien y retira del fuego de inmediato.",
+        "tip": "La pizca de salsa de soya otorga el toque umami que redondea y equilibra la dulzura."
+      },
+      {
+        "step": 5,
+        "title": "Atemperado y Servicio de Untar",
+        "timeMinutes": 2,
+        "technique": "Servicio de dip",
+        "text": "Vierte la salsa en un pocillo de cerámica. Puedes servirla tibia o a temperatura ambiente: al enfriarse adquirirá la densidad perfecta para bañar o untar wantanes fritos y arrollados primavera.",
+        "tip": "Dura perfectamente 1 semana en el refrigerador en frasco hermético de vidrio."
+      }
+    ]
+  },
+  {
+    "id": "guantan-con-carne",
+    "name": "Wantán con Carne Frito (Guantán)",
+    "tagline": "Crujientes saquitos dorados de masa casera uslereada con chuño y relleno sazonado",
+    "category": "china",
+    "categoryLabel": "Comida China",
+    "zone": "centro",
+    "zoneLabel": "Zona Centro (Tradición Urbana Nacional)",
+    "difficulty": "media",
+    "difficultyLabel": "Media",
+    "prepTime": 40,
+    "cookTime": 15,
+    "totalTime": 55,
+    "servingsBase": 6,
+    "estimatedCost": {
+      "totalBase": 6000,
+      "perServing": 1000,
+      "tier": "economico",
+      "tierLabel": "Económico",
+      "note": "Rinde aprox. 24 wantanes rellenos (~1.000 CLP por porción de 4 wantanes)"
+    },
+    "image": "assets/recipes/wantan-con-carne.jpg",
+    "history": "El guantán o wantán frito con carne es el aperitivo insustituible de la comida china en Chile. Popularizado desde las primeras décadas del siglo XX por la comunidad cantonesa en el norte grande y en Santiago, este bocado se distingue por una masa fina hecha con harina, huevo y un chorrito de vinagre, amasada con vigor y estirada con chuño (almidón de papa) para conseguir un grosor casi translúcido que al freírse se colma de ampollas doradas y crujientes.",
+    "grandmasSecret": "El secreto maestro está en usar chuño (almidón de papa o maicena) en lugar de harina para estirar la masa con el uslero: el chuño evita que la masa se pegue sin resecarla ni quemarse en el aceite, logrando ese crocante que estalla al primer mordisco.",
+    "winePairing": "Cerveza rubia lager helada o un vino blanco Sauvignon Blanc o Chardonnay chileno.",
+    "tags": [
+      "Comida China",
+      "Chino Chileno",
+      "Wantán",
+      "Guantán",
+      "Wantanes",
+      "Fritura",
+      "Carne",
+      "Aperitivo"
+    ],
+    "ingredients": [
+      {
+        "name": "Carne de vacuno o cerdo picada muy pequeña",
+        "quantity": 250,
+        "unit": "g",
+        "note": "Picada finamente a mano con cuchillo afilado"
+      },
+      {
+        "name": "Sal fina para sazonar la carne",
+        "quantity": 1,
+        "unit": "pizca generosa"
+      },
+      {
+        "name": "Ají-no-moto (glutamato monosódico)",
+        "quantity": 0.5,
+        "unit": "cdta"
+      },
+      {
+        "name": "Pimienta blanca molida",
+        "quantity": 1,
+        "unit": "pizca",
+        "note": "Aroma oriental característico"
+      },
+      {
+        "name": "Harina de trigo sin polvos de hornear (para la masa)",
+        "quantity": 1,
+        "unit": "taza",
+        "note": "140 g aprox."
+      },
+      {
+        "name": "Huevo fresco entero",
+        "quantity": 1,
+        "unit": "unidad"
+      },
+      {
+        "name": "Vinagre blanco (le otorga crocancia a la masa)",
+        "quantity": 1,
+        "unit": "chorrito",
+        "note": "1 cdta"
+      },
+      {
+        "name": "Agua tibia para ligar la masa",
+        "quantity": 3,
+        "unit": "cdas",
+        "note": "45 ml aprox. según absorción"
+      },
+      {
+        "name": "Chuño (almidón de papa o maicena) para uslerear",
+        "quantity": 50,
+        "unit": "g",
+        "note": "Para que no se pegue al estirar"
+      },
+      {
+        "name": "Aceite vegetal para freír",
+        "quantity": 500,
+        "unit": "ml"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Picado Fino y Sazón de la Carne",
+        "timeMinutes": 10,
+        "technique": "Corte milimétrico y adobo en crudo",
+        "text": "Pica la carne con un cuchillo bien afilado en trocitos milimétricos (casi molida a mano). Colócala en un bol y agrega la pizca de sal, la 1/2 cucharadita de ají-no-moto y la pizca de pimienta blanca molida. Mezcla con la punta de los dedos durante 1 minuto para compactar y reserva tapada.",
+        "tip": "La pimienta blanca es insustituible para lograr ese aroma auténtico de chifa/comida china."
+      },
+      {
+        "step": 2,
+        "title": "Preparación de la Masa con Huevo y Vinagre",
+        "timeMinutes": 5,
+        "technique": "Integración de corona",
+        "text": "En el mesón limpio forma un volcán con 1 taza de harina. Al centro añade 1 huevo entero batido y un chorrito de vinagre blanco. Con un tenedor integra la harina de adentro hacia afuera, agregando 2 a 3 cucharadas de agua tibia gradualmente hasta formar un bollo uniforme y firme.",
+        "tip": "El chorrito de vinagre rompe la elasticidad excesiva del gluten, asegurando una masa extra crocante al freír."
+      },
+      {
+        "step": 3,
+        "title": "Amasado Intenso y Reposo",
+        "timeMinutes": 15,
+        "technique": "Amasado y relajación de gluten",
+        "text": "Amasa con fuerza sobre el mesón durante 8 a 10 minutos hasta que la masa quede completamente lisa y suave. Cubre con un paño o plástico y deja reposar durante 15 a 20 minutos a temperatura ambiente para que se relaje y sea fácil de estirar.",
+        "tip": "Si no dejas reposar la masa, tenderá a encogerse como un elástico al usar el uslero."
+      },
+      {
+        "step": 4,
+        "title": "Uslereado Ultrafino con Chuño",
+        "timeMinutes": 10,
+        "technique": "Laminado milimétrico con fécula",
+        "text": "Espolvorea generosamente el mesón y el uslero con chuño. Estira la masa desde el centro hacia afuera, espolvoreando más chuño cada vez que haga falta para que deslice sin pegarse. Continúa uslereando con paciencia hasta que la masa quede casi translúcida, de apenas 1 milímetro de espesor.",
+        "tip": "El chuño es el secreto para que la masa no absorba exceso de harina y se dore de forma impecable."
+      },
+      {
+        "step": 5,
+        "title": "Corte de Cuadrados de Wantán",
+        "timeMinutes": 5,
+        "technique": "Corte de láminas parejo",
+        "text": "Recorta los bordes con un cuchillo afilado o corta-pizzas y corta la masa en cuadrados parejos de 8 x 8 cm (obtendrás entre 20 y 24 láminas). Separa las láminas espolvoreando un velo fino de chuño entre ellas y cúbrelas con un paño seco.",
+        "tip": "El paño seco evita que las láminas se resequen mientras realizas el armado."
+      },
+      {
+        "step": 6,
+        "title": "Relleno, Plegado y Sellado Tradicional",
+        "timeMinutes": 10,
+        "technique": "Plegado triangular y barquito",
+        "text": "Coloca una pequeña porción (1/2 cucharadita) de carne en el centro de cada cuadrado. Humedece dos bordes con agua con la yema del dedo, dobla en diagonal formando un triángulo y presiona los bordes expulsando el aire. Luego junta las dos puntas de la base solapándolas con una gotita de agua para formar la clásica figura de barquito o bonete de wantán.",
+        "tip": "Una porción pequeña de carne asegura una cocción rápida y completa sin romper la masa en el aceite."
+      },
+      {
+        "step": 7,
+        "title": "Fritura Dorada con Ampollas Crocantes",
+        "timeMinutes": 8,
+        "technique": "Fritura rápida a 180°C",
+        "text": "Calienta abundante aceite en una olla o sartén profunda a 180°C. Introduce los wantanes en tandas de 5 a 6 unidades y fríelos durante 2 a 3 minutos volteándolos una vez, hasta que la masa se infle con ampollitas doradas y crocantes. Retira con espumadera, escurre sobre papel absorbente y sirve calientes con salsa tamarindo.",
+        "tip": "Sírvelos recién salidos del fuego para disfrutar de toda la crocancia de la masa con chuño."
+      }
+    ]
+  },
+  {
+    "id": "carne-mongoliana",
+    "name": "Carne Mongoliana Tradicional al Wok",
+    "tagline": "Tiras de vacuno jugosas salteadas a fuego vivo con cebollín fresco y ají verde",
+    "category": "china",
+    "categoryLabel": "Comida China",
+    "zone": "centro",
+    "zoneLabel": "Zona Centro (Tradición Urbana Nacional)",
+    "difficulty": "facil",
+    "difficultyLabel": "Fácil",
+    "prepTime": 15,
+    "cookTime": 10,
+    "totalTime": 25,
+    "servingsBase": 4,
+    "estimatedCost": {
+      "totalBase": 9600,
+      "perServing": 2400,
+      "tier": "medio",
+      "tierLabel": "Medio",
+      "note": "Carne de vacuno tierna y cebollín fresco (~2.400 CLP por porción)"
+    },
+    "image": "assets/recipes/carne-mongoliana.jpg",
+    "history": "La Carne Mongoliana es uno de los platos de fondo más representativos y pedidos en los restaurantes de comida china en Chile. Aunque de inspiración asiática en los salteados con puerro del norte de China, en Chile adoptó cortes tiernos de vacuno criollo (posta o lomo), la frescura y picor del ají verde local y una cantidad generosa de cebollín salteado a fuego volcánico en wok con salsa de soya, maicena y ají-no-moto.",
+    "grandmasSecret": "El secreto para que la carne quede tierna y jugosa es cortarla siempre en tiras contra la hebra de la carne, tener el wok humeante a fuego máximo y no sobrecargar la sartén para saltear en vez de sancochar; además, el cebollín verde se añade en los últimos 30 segundos para mantener su color verde esmeralda y textura crocante.",
+    "winePairing": "Vino tinto Carménère con notas de pimienta negra o una cerveza IPA chilena.",
+    "tags": [
+      "Comida China",
+      "Chino Chileno",
+      "Carne Mongoliana",
+      "Vacuno",
+      "Wok",
+      "Salteado",
+      "Cebollín",
+      "Ají Verde",
+      "Plato de Fondo"
+    ],
+    "ingredients": [
+      {
+        "name": "Carne de vacuno (posta negra, posta rosada o lomo liso) cortada en tiras delgadas contra la fibra",
+        "quantity": 500,
+        "unit": "g"
+      },
+      {
+        "name": "Cebollín fresco entero (separar tallos blancos y hojas verdes)",
+        "quantity": 4,
+        "unit": "matas",
+        "note": "Tallos blancos al sesgo, hojas verdes en bastones de 3 cm"
+      },
+      {
+        "name": "Ají verde chileno (tipo cristal) cortado en tiritas finas",
+        "quantity": 2,
+        "unit": "unidades",
+        "note": "Despepitado si prefieres picor suave"
+      },
+      {
+        "name": "Salsa de soya tradicional (shoyu)",
+        "quantity": 3,
+        "unit": "cdas"
+      },
+      {
+        "name": "Sal fina o de mar",
+        "quantity": 0.5,
+        "unit": "cdta"
+      },
+      {
+        "name": "Agua caliente (o caldo)",
+        "quantity": 100,
+        "unit": "ml",
+        "note": "1/2 taza"
+      },
+      {
+        "name": "Ají-no-moto (glutamato monosódico)",
+        "quantity": 0.5,
+        "unit": "cdta"
+      },
+      {
+        "name": "Maicena (almidón de maíz) para espesar la salsa",
+        "quantity": 1,
+        "unit": "cdta colmada"
+      },
+      {
+        "name": "Agua fría para disolver la maicena",
+        "quantity": 30,
+        "unit": "ml",
+        "note": "2 cdas"
+      },
+      {
+        "name": "Aceite vegetal neutro para saltear a alta temperatura en wok",
+        "quantity": 2,
+        "unit": "cdas"
+      }
+    ],
+    "instructions": [
+      {
+        "step": 1,
+        "title": "Mise en Place Rápida de Wok",
+        "timeMinutes": 10,
+        "technique": "Corte contra la fibra y preparación previa",
+        "text": "Corta la carne de vacuno en tiras delgadas de 0.5 cm cortando a través de la hebra para máxima terneza. Lava los cebollines y separa: corta la parte blanca en rodajas en diagonal (al sesgo) y la parte verde en bastoncitos de 3 cm. Corta el ají verde en tiritas finas sin pepas. En un pocillo disuelve la cucharadita de maicena en las 2 cucharadas de agua fría.",
+        "tip": "Tener todo medido y al alcance de la mano es clave: la cocción en wok dura menos de 6 minutos."
+      },
+      {
+        "step": 2,
+        "title": "Calentado Fuerte del Wok",
+        "timeMinutes": 2,
+        "technique": "Calor intenso para efecto wok hei (220°C)",
+        "text": "Coloca el wok o sartén amplia a fuego máximo durante 1 a 2 minutos hasta que empiece a desprender un leve humo. Vierte las 2 cucharadas de aceite vegetal haciéndolo girar para lubricar las paredes.",
+        "tip": "El calor máximo sella los jugos de la carne en segundos y otorga ese aroma ahumado oriental."
+      },
+      {
+        "step": 3,
+        "title": "Fritura Rápida de la Parte Blanca del Cebollín y Ají Verde",
+        "timeMinutes": 1,
+        "technique": "Salteado aromático a fuego vivo",
+        "text": "Agrega de inmediato al wok caliente la parte blanca picada del cebollín y las tiritas de ají verde. Saltea rápidamente durante 30 a 45 segundos revolviendo sin parar para perfumar el aceite sin que se quemen.",
+        "tip": "La parte blanca del cebollín soporta mejor el calor directo y entrega todo su dulzor aromático al fondo."
+      },
+      {
+        "step": 4,
+        "title": "Salteado Rápido de la Carne de Vacuno",
+        "timeMinutes": 3,
+        "technique": "Salteado rápido al wok (stir-fry)",
+        "text": "Incorpora las tiras de carne de vacuno de golpe al centro del wok a fuego vivo. Saltea y remueve enérgicamente durante 2 a 3 minutos hasta que la carne cambie de color y tome bordes dorados, conservando todos sus jugos tiernos en el interior.",
+        "tip": "Si tu sartén no es muy grande, saltea la carne en dos tandas para que dore y no hierva en su jugo."
+      },
+      {
+        "step": 5,
+        "title": "Desglasado con Soya, Sal, Agua Caliente y Ají-no-moto",
+        "timeMinutes": 2,
+        "technique": "Reducción y emulsión umami",
+        "text": "Agrega las 3 cucharadas de salsa de soya, la 1/2 cucharadita de sal, los 100 ml de agua caliente y la 1/2 cucharadita de ají-no-moto. Mezcla bien y deja que rompa hervor durante 1 minuto desglasando el fondo sabroso del wok.",
+        "tip": "Usar agua caliente evita bajar bruscamente la temperatura de cocción del wok."
+      },
+      {
+        "step": 6,
+        "title": "Espesado Aterciopelado con Maicena",
+        "timeMinutes": 1,
+        "technique": "Napa brillante inmediata",
+        "text": "Revuelve la maicena disuelta y viértela directamente en el centro burbujeante del wok. Remueve enérgicamente con la espátula durante 30 a 45 segundos: la salsa espesará de inmediato, cubriendo cada tira de carne con una película brillante y deliciosa.",
+        "tip": "Apenas espese y brille la salsa, pasa de inmediato al paso final."
+      },
+      {
+        "step": 7,
+        "title": "Adición Final del Cebollín Verde y Servicio",
+        "timeMinutes": 1,
+        "technique": "Finalizado crocante",
+        "text": "Incorpora los bastones verdes del cebollín. Saltea rápidamente durante solo 20 a 30 segundos para que se calienten sin perder su textura crujiente ni su color verde vivo. Apaga el fuego y sirve de inmediato sobre platos calientes, acompañado de arroz chaufán o arroz blanco graneado.",
+        "tip": "El cebollín verde al final conserva un frescor crujiente que equilibra a la perfección la carne jugosa."
+      }
+    ]
   }
 ];
 
@@ -5479,6 +6055,11 @@ const CATEGORIAS_PLATILLO = [
     "id": "all",
     "name": "Todos los Platillos",
     "icon": "🍽️"
+  },
+  {
+    "id": "china",
+    "name": "Comida China",
+    "icon": "🥢"
   },
   {
     "id": "fondos",

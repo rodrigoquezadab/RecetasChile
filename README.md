@@ -67,10 +67,14 @@ Este recetario no es una lista de recetas común y corriente. Fue creado para ce
 
 ---
 
-## 📖 Catálogo Exhaustivo de las 43 Recetas Tradicionales
+## 📖 Catálogo Exhaustivo de las 47 Recetas Tradicionales
 
 | Zona Geográfica | Receta Tradicional | Categoría | Tiempo | Presupuesto Aprox. |
 | :--- | :--- | :---: | :---: | :---: |
+| **Zona Centro / Urbana** | **Arrollado Primavera Chileno** | 🥢 Comida China | 90 min | $1.250 / porción |
+| **Zona Centro / Urbana** | **Salsa Tamarindo Agridulce** | 🥢 Comida China | 10 min | $300 / porción |
+| **Zona Centro / Urbana** | **Wantán con Carne Frito (Guantán)** | 🥢 Comida China | 55 min | $1.000 / porción |
+| **Zona Centro / Urbana** | **Carne Mongoliana Tradicional al Wok** | 🥢 Comida China | 25 min | $2.400 / porción |
 | **Zona Centro** | **Porotos con Riendas Tradicionales** | Sopas y Guisos | 85 min | $1.450 / porción |
 | **Zona Centro** | **Tomaticán Criollo con Choclo y Carne** | Platos de Fondo | 55 min | $2.600 / porción |
 | **Zona Centro** | **Carbonada Criolla Tradicional** | Sopas y Guisos | 60 min | $2.200 / porción |
